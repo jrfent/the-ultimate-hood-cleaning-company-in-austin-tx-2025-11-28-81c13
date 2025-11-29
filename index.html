@@ -69,6 +69,48 @@
         .smooth-height-transition {
             transition: max-height 300ms ease-out, opacity 300ms ease-out;
         }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            animation: fadeIn 300ms ease-out;
+        }
+
+        .modal.show {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .modal-content {
+            animation: slideIn 300ms ease-out;
+        }
     </style>
 </head>
 <body class="bg-white text-secondary">
@@ -137,9 +179,9 @@
                     </div>
 
                     <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="https://austinhoodcleaning.com" class="bg-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:brightness-110 smooth-transition hover:scale-105 hover:shadow-lg text-center">
+                        <button onclick="openScheduleModal()" class="bg-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:brightness-110 smooth-transition hover:scale-105 hover:shadow-lg text-center">
                             Schedule Cleaning Today
-                        </a>
+                        </button>
                         <a href="#features" class="border-2 border-primary text-primary px-8 py-4 rounded-full font-bold text-lg hover:bg-primary hover:text-white smooth-transition hover:scale-105 text-center">
                             Learn More
                         </a>
@@ -327,9 +369,9 @@
             <p class="text-lg md:text-xl text-gray-100 mb-10 leading-relaxed max-w-2xl mx-auto">
                 Join hundreds of Austin restaurants and commercial kitchens that trust us for their hood cleaning needs. Get certified, compliant, and clean today.
             </p>
-            <a href="https://austinhoodcleaning.com" class="inline-block bg-primary text-white px-10 py-4 rounded-full font-bold text-lg hover:brightness-110 smooth-transition hover:scale-105 hover:shadow-lg">
+            <button onclick="openScheduleModal()" class="inline-block bg-primary text-white px-10 py-4 rounded-full font-bold text-lg hover:brightness-110 smooth-transition hover:scale-105 hover:shadow-lg">
                 Schedule Your Cleaning Now
-            </a>
+            </button>
         </div>
     </section>
 
@@ -533,6 +575,48 @@
         </div>
     </section>
 
+    <!-- Schedule Modal -->
+    <div id="scheduleModal" class="modal">
+        <div class="modal-content bg-white rounded-2xl p-8 md:p-12 max-w-md w-full mx-4 shadow-2xl">
+            <div class="flex items-center justify-between mb-6">
+                <h3 class="text-2xl md:text-3xl font-bold text-secondary">Schedule Your Cleaning</h3>
+                <button onclick="closeScheduleModal()" class="text-gray-500 hover:text-gray-700 text-2xl">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <form id="scheduleForm" class="space-y-4">
+                <div>
+                    <label class="block text-sm font-semibold text-secondary mb-2">Name</label>
+                    <input type="text" name="name" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="Your Name">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold text-secondary mb-2">Property/Restaurant Name</label>
+                    <input type="text" name="property" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="Business Name">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold text-secondary mb-2">Phone</label>
+                    <input type="tel" name="phone" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="(555) 123-4567">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold text-secondary mb-2">Email</label>
+                    <input type="email" name="email" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="your@email.com">
+                </div>
+
+                <button type="submit" class="w-full bg-primary text-white px-6 py-3 rounded-full font-bold text-lg hover:brightness-110 smooth-transition mt-6">
+                    Submit Request
+                </button>
+            </form>
+
+            <p class="text-center text-sm text-gray-600 mt-4">
+                We'll contact you within 24 hours to confirm your appointment.
+            </p>
+        </div>
+    </div>
+
     <!-- Footer -->
     <footer class="bg-secondary text-white py-16 md:py-20">
         <div class="max-w-7xl mx-auto px-8 md:px-16">
@@ -608,7 +692,49 @@
 
     <!-- JavaScript -->
     <script>
+        function openScheduleModal() {
+            document.getElementById('scheduleModal').classList.add('show');
+        }
+
+        function closeScheduleModal() {
+            document.getElementById('scheduleModal').classList.remove('show');
+        }
+
         document.addEventListener('DOMContentLoaded', function() {
+            // Close modal when clicking outside
+            const modal = document.getElementById('scheduleModal');
+            if (modal) {
+                modal.addEventListener('click', function(e) {
+                    if (e.target === modal) {
+                        closeScheduleModal();
+                    }
+                });
+            }
+
+            // Handle form submission
+            const scheduleForm = document.getElementById('scheduleForm');
+            if (scheduleForm) {
+                scheduleForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const formData = {
+                        name: this.name.value,
+                        property: this.property.value,
+                        phone: this.phone.value,
+                        email: this.email.value
+                    };
+
+                    console.log('Form submitted:', formData);
+                    
+                    // Show success message
+                    alert('Thank you! We will contact you shortly to confirm your appointment.');
+                    
+                    // Reset form and close modal
+                    this.reset();
+                    closeScheduleModal();
+                });
+            }
+
             // Mobile Menu Toggle
             const mobileMenuButton = document.querySelector('.mobile-menu-button');
             const mobileMenu = document.querySelector('.mobile-menu');
