@@ -208,11 +208,9 @@
 
                     <div class="flex flex-col sm:flex-row gap-4">
                         <button onclick="openScheduleModal()" class="bg-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:brightness-110 smooth-transition hover:scale-105 hover:shadow-lg text-center">
-                            Schedule Cleaning Today
+                            Get Started With a Quote
                         </button>
-                        <a href="#features" class="border-2 border-primary text-primary px-8 py-4 rounded-full font-bold text-lg hover:bg-primary hover:text-white smooth-transition hover:scale-105 text-center">
-                            Learn More
-                        </a>
+                        
                     </div>
 
                     <!-- Trust Badges -->
