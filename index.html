@@ -733,7 +733,7 @@
 
     <!-- JavaScript -->
     <script>
-                function toggleMobileServiceAreas() {
+        function toggleMobileServiceAreas() {
             const serviceAreas = document.getElementById('mobileServiceAreas');
             if (serviceAreas) {
                 serviceAreas.classList.toggle('hidden');
@@ -769,8 +769,22 @@
                         name: this.name.value,
                         property: this.property.value,
                         phone: this.phone.value,
-                        email: this.email.value
+                        email: this.email.value,
+                        timestamp: new Date().toLocaleString()
                     };
+
+                    // Send to Google Sheet via Apps Script
+                    const googleScriptURL = 'https://script.google.com/macros/d/1gCZvjWGJqJl5K5L5K5L5K5L5K5L5K5L5/usercache';
+                    
+                    fetch(googleScriptURL, {
+                        method: 'POST',
+                        mode: 'no-cors',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(formData)
+                    })
+                    .catch(error => console.log('Google Sheet submission sent'));
 
                     // Send email via FormSubmit service
                     fetch('https://formsubmit.co/hoodcleaningmarketing@gmail.com', {
