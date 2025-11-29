@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Ultimate Hood Cleaning Company in Austin TX - IKECA Certified, NFPA Compliant, Fully Insured. Get your hood cleaning done quickly and with high quality.">
+    <meta name="keywords" content="hood cleaning, Austin TX, restaurant hood cleaning, IKECA certified, NFPA compliant">
+    <meta name="author" content="Austin Hood Cleaning">
+    <meta property="og:title" content="The Ultimate Hood Cleaning Company in Austin TX">
+    <meta property="og:description" content="Professional hood cleaning services - Guaranteed to Pass Inspection, Green Products, Exceptional Service">
+    <meta property="og:type" content="website">
+    <title>The Ultimate Hood Cleaning Company in Austin TX | Professional Hood Cleaning Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .bg-primary {
+            background-color: #FF5A5F;
+        }
+        
+        .text-primary {
+            color: #FF5A5F;
+        }
+        
+        .bg-secondary {
+            background-color: #1A1A1A;
+        }
+        
+        .text-secondary {
+            color: #1A1A1A;
+        }
+        
+        .bg-accent {
+            background-color: #FFD166;
+        }
+        
+        .text-accent {
+            color: #FFD166;
+        }
+        
+        .hover-primary:hover {
+            background-color: #FF4A4E;
+        }
+        
+        .smooth-transition {
+            transition: all 300ms ease-out;
+        }
+        
+        .gradient-overlay {
+            background: linear-gradient(135deg, #FF5A5F 0%, #FF7A7F 100%);
+        }
+        
+        .faq-answer {
+            max-height: 500px;
+            overflow: hidden;
+        }
+        
+        .faq-answer.hidden {
+            max-height: 0;
+            overflow: hidden;
+        }
+        
+        .smooth-height-transition {
+            transition: max-height 300ms ease-out, opacity 300ms ease-out;
+        }
+    </style>
+</head>
+<body class="bg-white text-secondary">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-8 md:px-16 py-4">
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                <a href="https://jrfent.github.io/the-ultimate-hood-cleaning-company-in-austin-tx-2025-11-28-81c13" class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+                        <i class="fas fa-fire text-white text-lg"></i>
+                    </div>
+                    <span class="text-xl font-bold text-secondary hidden sm:inline">Austin Hood Cleaning</span>
+                </a>
+
+                <!-- Back Button -->
+                <a href="https://jrfent.github.io/the-ultimate-hood-cleaning-company-in-austin-tx-2025-11-28-81c13" class="text-secondary font-medium hover:text-primary smooth-transition flex items-center gap-2">
+                    ← Back
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Blog Content -->
+    <main class="max-w-4xl mx-auto px-8 md:px-16 py-12 md:py-20">
+        <article class="prose prose-lg max-w-none">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 text-secondary">The Complete Guide to Professional Hood Cleaning: Everything Austin Restaurant Owners Need to Know</h1>
+            
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAC0ALQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWm5ygoaKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlbaWmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/9k=" alt="Professional kitchen hood cleaning service with technician performing maintenance on commercial restaurant hood system" class="w-full rounded-lg shadow-lg mb-8">
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Hood cleaning is one of the most critical yet often overlooked maintenance tasks in the restaurant industry. Whether you operate a small food truck, a bustling casual dining establishment, or an upscale fine dining restaurant in Austin, TX, understanding the importance of professional hood cleaning can mean the difference between a thriving business and one facing costly shutdowns, health code violations, or worse—a devastating fire. This comprehensive guide will walk you through everything you need to know about hood cleaning, from why it matters to how often you should schedule it, and how to choose the right professional service.</p>
+            
+            <p class="mb-6 leading-relaxed text-gray-700">Professional hood cleaning isn't just about aesthetics or passing inspections—though both are important. It's about safety, compliance, efficiency, and protecting your investment in your restaurant. Let's dive deep into this essential aspect of restaurant operations and explore why Austin Hood Cleaning has become the trusted choice for hundreds of establishments across the Austin area.</p>
+
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-secondary">Understanding Your Restaurant Hood System</h2>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Before we discuss cleaning, it's important to understand what you're actually cleaning. A restaurant hood system is far more complex than it might appear at first glance. It's not just the visible canopy hanging above your cooking line—it's an integrated system that includes the hood canopy, filters, ductwork, dampers, and the exhaust fan itself. Each component plays a crucial role in maintaining a safe and efficient kitchen environment.</p>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">The hood canopy is the most visible component and serves as the first line of defense in capturing cooking vapors, smoke, and grease particles. However, the real work happens in the filters and ductwork. These components accumulate grease, carbon, and other byproducts of cooking, and this buildup is where the danger lies. Over time, this accumulation can create a significant fire hazard, reduce ventilation efficiency, and harbor bacteria and pests.</p>
+            
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-secondary">The Components of Your Hood System</h3>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Your hood system consists of several interconnected parts that work together to maintain a safe, clean kitchen environment. The hood canopy captures cooking vapors and smoke. Filters trap grease particles and prevent them from entering the ductwork. The ductwork carries the contaminated air from your kitchen to the outside of your building. The exhaust fan provides the suction necessary to pull air through the system. Understanding each component helps you appreciate why professional cleaning is so important and why it requires specialized knowledge and equipment.</p>
+
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-secondary">Why Professional Hood Cleaning Is Essential</h2>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Many restaurant owners underestimate the importance of professional hood cleaning, often attempting to handle it themselves or putting it off indefinitely. This is a critical mistake with serious consequences. Professional hood cleaning is not just a recommended maintenance task—it's a legal requirement in most jurisdictions, including Austin, TX, and it's essential for several compelling reasons.</p>
+            
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-secondary">Fire Safety and Prevention</h3>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">The most critical reason to maintain a clean hood system is fire prevention. Grease buildup in your hood, filters, and ductwork is highly flammable. According to the National Fire Protection Association (NFPA), cooking equipment is the leading cause of restaurant fires and injuries from fires in eating and drinking establishments. A significant percentage of these fires originate in or involve the hood system. When grease accumulates to dangerous levels, it can ignite from the heat of cooking equipment or from sparks, creating a fire that can spread rapidly through your ductwork and potentially throughout your entire building.</p>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Professional hood cleaning removes this flammable buildup, significantly reducing your fire risk. IKECA-certified technicians know exactly how much grease accumulation is dangerous and use specialized equipment to remove every trace of it. This isn't something that can be adequately addressed with standard cleaning supplies or by untrained staff.</p>
+            
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-secondary">Health Code Compliance and Inspections</h3>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">The Austin-Travis County Health and Human Services Department conducts regular inspections of food establishments, and hood cleanliness is a critical component of these inspections. A dirty or improperly maintained hood system can result in health code violations, fines, and in severe cases, temporary closure of your establishment. These violations go on your record and can damage your reputation with customers and regulators alike.</p>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Professional hood cleaning ensures you're always inspection-ready. When you work with a certified service like Austin Hood Cleaning, you receive documentation of the cleaning that you can provide to health inspectors. This documentation demonstrates your commitment to maintaining a clean, safe kitchen and provides evidence that you're complying with all relevant regulations.</p>
+            
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-secondary">Equipment Efficiency and Longevity</h3>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">A clean hood system operates more efficiently than a dirty one. When grease and debris accumulate in your ductwork and filters, they restrict airflow, forcing your exhaust fan to work harder to maintain proper ventilation. This increased workload leads to higher energy consumption, increased wear and tear on the fan motor, and a shorter lifespan for your equipment. Regular professional cleaning keeps your system running at peak efficiency, reducing energy costs and extending the life of your equipment.</p>
+
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-secondary">How Often Should You Have Your Hood Cleaned?</h2>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">The frequency of hood cleaning depends on several factors specific to your restaurant's operations. The NFPA provides guidelines for hood cleaning frequency based on cooking volume and type of cuisine, but the specific recommendations for your establishment should be determined by a professional assessment.</p>
+            
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-secondary">Factors Affecting Cleaning Frequency</h3>
+            
+            <ul class="list-disc list-inside mb-6 space-y-2">
+                <li class="text-gray-700">Type of cooking: Grease-heavy cooking (barbecue, fried foods, wok cooking) requires more frequent cleaning than lower-grease operations</li>
+                <li class="text-gray-700">Volume of cooking: High-volume restaurants accumulate grease faster than lower-volume establishments</li>
+                <li class="text-gray-700">Hours of operation: Restaurants operating longer hours generate more cooking emissions</li>
+                <li class="text-gray-700">Type of hood system: Different hood designs may require different cleaning frequencies</li>
+                <li class="text-gray-700">Ventilation system design: The efficiency and design of your specific system affects accumulation rates</li>
+            </ul>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">As a general guideline, the NFPA recommends the following cleaning frequencies: restaurants with high-grease cooking (barbecue, fried foods) should have their hoods cleaned monthly; restaurants with moderate grease production should have cleaning every 1-3 months; and restaurants with minimal grease production may need cleaning every 3-6 months. However, these are guidelines, not absolute rules. A professional assessment of your specific kitchen can determine the optimal cleaning schedule for your operation.</p>
+
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-secondary">What Professional Hood Cleaning Involves</h2>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Professional hood cleaning is a comprehensive process that goes far beyond what can be accomplished with standard cleaning supplies. It requires specialized knowledge, equipment, and techniques to ensure every component of your hood system is thoroughly cleaned and safe.</p>
+            
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-secondary">The Professional Cleaning Process</h3>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">A thorough professional hood cleaning typically begins with a comprehensive inspection of your entire hood system. The technician will assess the level of grease accumulation, identify any potential problems or areas of concern, and determine the appropriate cleaning approach for your specific system. This inspection is crucial because it allows the technician to identify issues that might not be obvious to the untrained eye.</p>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Next, the hood canopy is carefully cleaned using specialized degreasers and equipment. These aren't your typical household cleaning products—they're industrial-strength solutions specifically designed to break down and remove heavy grease accumulation. The filters are then removed and cleaned separately, often using high-pressure washing or soaking in degreasing solutions, depending on their condition.</p>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">The ductwork is perhaps the most critical component to clean, and it's where professional equipment truly makes a difference. Technicians use specialized rotary brush systems and high-pressure cleaning equipment to remove grease buildup from inside the ducts. This is work that absolutely cannot be done safely or effectively by untrained individuals. The exhaust fan is also cleaned thoroughly to ensure it operates at maximum efficiency.</p>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Finally, the entire system is inspected again to ensure all components are clean, functioning properly, and safe. Professional services provide documentation of the cleaning, including before and after photos, which you can keep for your records and provide to health inspectors.</p>
+
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-secondary">Choosing the Right Hood Cleaning Service in Austin</h2>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Not all hood cleaning services are created equal. When you're selecting a service to maintain one of your restaurant's most critical systems, it's important to choose a provider with the right credentials, experience, and commitment to quality. Here are the key factors to consider when evaluating hood cleaning services in Austin.</p>
+            
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-secondary">Certification and Credentials</h3>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">The most important credential to look for is IKECA (International Kitchen Exhaust Cleaning Association) certification. IKECA is the leading industry organization for hood cleaning professionals, and their certification requires extensive training, testing, and adherence to strict standards. An IKECA-certified technician has demonstrated expertise in all aspects of hood cleaning and understands the safety protocols and best practices required for this specialized work.</p>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">In addition to IKECA certification, you should verify that the service is familiar with NFPA standards and complies with all relevant regulations. Ask about the training and certification status of their technicians, and don't hesitate to request proof of their credentials.</p>
+            
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-secondary">Insurance and Liability Coverage</h3>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Hood cleaning involves working at heights, using specialized equipment, and handling caustic chemicals. It's essential that your service provider carries comprehensive liability insurance and workers' compensation coverage. Ask for proof of insurance and verify that the coverage amounts are adequate for the work being performed. This protects both your business and the technicians performing the work.</p>
+            
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-secondary">Experience and Track Record</h3>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">How long has the service been in business? How many restaurants have they served? Can they provide references from local Austin establishments? A service with a strong track record of satisfied customers in your area has demonstrated their ability to deliver quality results consistently. Don't be shy about asking for references and actually contacting them to ask about their experience with the service.</p>
+            
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-secondary">Green Cleaning Products</h3>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">If environmental responsibility is important to your business, look for a service that uses food-safe, biodegradable, environmentally friendly cleaning products. These products are just as effective as harsh chemicals but are safer for your staff, your customers, and the environment. Austin Hood Cleaning, for example, prioritizes green products without compromising on cleaning power.</p>
+            
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-secondary">Documentation and Communication</h3>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">A professional service should provide detailed documentation of their work, including before and after photos, a description of work performed, and any recommendations for follow-up maintenance. They should also be responsive to your questions and willing to explain their process and answer any concerns you have about your hood system.</p>
+
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-secondary">Common Hood Cleaning Mistakes to Avoid</h2>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Many restaurant owners make costly mistakes when it comes to hood cleaning. Understanding these common pitfalls can help you make better decisions for your business.</p>
+            
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-secondary">Attempting DIY Hood Cleaning</h3>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">One of the most common mistakes is attempting to clean your hood system yourself or having untrained staff do it. This is dangerous for several reasons. First, working at heights on hood systems poses a serious fall risk. Second, improper cleaning can damage components of your system. Third, untrained individuals may not remove all the grease and buildup, leaving fire hazards behind. Finally, DIY cleaning won't provide the documentation needed for health inspections. Professional cleaning is an investment that pays for itself through improved safety, efficiency, and compliance.</p>
+            
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-secondary">Neglecting Regular Maintenance</h3>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Some restaurant owners put off hood cleaning because it seems like an unnecessary expense. This is false economy. Neglecting regular cleaning leads to increased fire risk, failed health inspections, reduced equipment efficiency, and ultimately more expensive repairs or replacement. Regular professional cleaning is far less expensive than dealing with the consequences of a neglected system.</p>
+            
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-secondary">Choosing Based Solely on Price</h3>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">While cost is certainly a factor, choosing a hood cleaning service based solely on price is a mistake. A service that charges significantly less than competitors may be cutting corners on quality, using less effective products, or employing uncertified technicians. The cheapest option often ends up being the most expensive in the long run. Choose a service based on credentials, experience, and quality, not just price.</p>
+
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-secondary">The Austin Hood Cleaning Difference</h2>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">When you choose Austin Hood Cleaning, you're choosing a service that understands the unique needs of Austin's diverse restaurant community. From food trucks to fine dining establishments, barbecue joints to Asian fusion restaurants, we have the expertise and experience to serve every type of food service operation.</p>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Our IKECA-certified technicians bring years of experience and a commitment to excellence to every job. We use environmentally friendly, food-safe cleaning products that are tough on grease but gentle on the environment. Our comprehensive approach ensures your hood system is not just clean, but optimized for safety, efficiency, and compliance. We provide detailed documentation of our work, so you always have proof of maintenance for your records and for health inspectors. Most importantly, we understand that your restaurant is your livelihood, and we treat it with the respect and professionalism it deserves.</p>
+
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-secondary">Conclusion: Protecting Your Restaurant's Future</h2>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Professional hood cleaning is not an optional luxury for restaurants—it's an essential component of responsible business management. It protects your staff and customers from fire hazards, ensures you're compliant with health and safety regulations, keeps your equipment running efficiently, and protects your investment in your restaurant.</p>
+            
+            <p class="mb-6 leading-relaxed text-gray-700">If you're operating a restaurant in Austin, TX, and haven't had your hood professionally cleaned recently, now is the time to schedule a service. Don't wait for a health inspection violation, a near-miss fire, or equipment failure to realize the importance of this critical maintenance task. Contact Austin Hood Cleaning today to schedule your professional hood cleaning and join the hundreds of Austin restaurants that trust us to keep their kitchens safe, clean, and compliant. Your business—and your peace of mind—will thank you.</p>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white py-16 md:py-20 mt-12">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 md:gap-8 mb-12">
+                <!-- Column 1 - About -->
+                <div>
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+                            <i class="fas fa-fire text-white text-lg"></i>
+                        </div>
+                        <span class="text-xl font-bold">Austin Hood Cleaning</span>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed">
+                        Professional hood cleaning services in Austin, TX. IKECA certified, NFPA compliant, and fully insured.
+                    </p>
+                </div>
+
+                <!-- Column 2 - Services -->
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#features" class="text-gray-300 hover:text-primary smooth-transition">Hood Cleaning</a></li>
+                        <li><a href="#benefits" class="text-gray-300 hover:text-primary smooth-transition">Maintenance Plans</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary smooth-transition">Commercial Kitchens</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary smooth-transition">Emergency Service</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 - Legal -->
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Legal</h3>
+                    <ul class="space-y-3">
+                        <li><a href="privacy.html" class="text-gray-300 hover:text-primary smooth-transition">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-300 hover:text-primary smooth-transition">Terms of Service</a></li>
+                        <li><a href="blog.html" class="text-gray-300 hover:text-primary smooth-transition">Blog</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 - Contact -->
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Contact</h3>
+                    <p class="text-gray-300 mb-4">
+                        <i class="fas fa-envelope text-primary mr-2"></i>
+                        <a href="mailto:office@austinhoodcleaning.com" class="hover:text-primary smooth-transition">office@austinhoodcleaning.com</a>
+                    </p>
+                    <div class="flex gap-4 mt-6">
+                        <a href="#" class="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:brightness-110 smooth-transition" aria-label="Facebook">
+                            <i class="fab fa-facebook-f text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:brightness-110 smooth-transition" aria-label="Instagram">
+                            <i class="fab fa-instagram text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:brightness-110 smooth-transition" aria-label="Twitter">
+                            <i class="fab fa-twitter text-white"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="border-t border-gray-700 pt-8 md:pt-12">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                    <p class="text-gray-300 text-center md:text-left">
+                        &copy; 2025 Austin Hood Cleaning. All rights reserved.
+                    </p>
+                    <p class="text-gray-300 text-center">
+                        Serving Austin, TX with professional hood cleaning services since 2015.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
