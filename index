@@ -192,7 +192,7 @@
                     <button class="text-secondary font-medium hover:text-primary smooth-transition flex items-center gap-2 w-full" onclick="toggleMobileServiceAreas()">Service Areas <i class="fas fa-chevron-down text-xs"></i></button>
                     <div id="mobileServiceAreas" class="hidden pl-4 mt-2 space-y-2 border-l-2 border-gray-200">
                         <a href="roundrockhoodcleaning.html" class="block text-secondary font-medium py-2 hover:text-primary smooth-transition">Round Rock</a>
-                        <a href="cedarparkhoodcleaning.html" class="block text-secondary font-medium py-2 hover:text-primary smooth-transition">Cedar Park Hood Cleaning</a>
+                        <a href="cedarparkhoodcleaning.html" class="block text-secondary font-medium py-2 hover:text-primary smooth-transition">Cedar Park</a>
                     </div>
                 </div>
                 <button onclick="openScheduleModal()" class="bg-primary text-white px-8 py-3 rounded-full font-semibold text-center hover:brightness-110 smooth-transition w-full">
