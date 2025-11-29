@@ -278,19 +278,6 @@
                 <a href="#features" class="text-secondary font-medium hover:text-primary smooth-transition">Features</a>
                 <a href="#benefits" class="text-secondary font-medium hover:text-primary smooth-transition">Benefits</a>
                 <a href="#faq" class="text-secondary font-medium hover:text-primary smooth-transition">FAQ</a>
-                <div class="relative group">
-                    <button class="text-secondary font-medium hover:text-primary smooth-transition flex items-center gap-2">
-                        Service Areas
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-                        </svg>
-                    </button>
-                    <div class="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible smooth-transition z-50 py-2">
-                        <a href="index.html" class="block px-4 py-2 text-secondary hover:text-primary hover:bg-gray-50 smooth-transition">Round Rock</a>
-                        <a href="cedar-park.html" class="block px-4 py-2 text-secondary hover:text-primary hover:bg-gray-50 smooth-transition">Cedar Park</a>
-                        <a href="georgetown.html" class="block px-4 py-2 text-secondary hover:text-primary hover:bg-gray-50 smooth-transition">Georgetown</a>
-                    </div>
-                </div>
             </div>
 
             <!-- Phone Link -->
@@ -318,8 +305,6 @@
                 <a href="#features" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">Features</a>
                 <a href="#benefits" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">Benefits</a>
                 <a href="#faq" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">FAQ</a>
-                <a href="cedar-park.html" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">Cedar Park</a>
-                <a href="georgetown.html" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">Georgetown</a>
                 <button onclick="openScheduleModal()" class="bg-primary text-white px-8 py-3 rounded-full font-semibold text-center hover:brightness-110 smooth-transition w-full">
                     Get Started
                 </button>
