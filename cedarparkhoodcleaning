@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Hood Cleaning Services in Cedar Park TX - IKECA Certified, NFPA Compliant, Fully Insured. Expert hood cleaning for Cedar Park restaurants and commercial kitchens.">
+    <meta name="keywords" content="hood cleaning Cedar Park, Cedar Park TX hood cleaning, restaurant hood cleaning, IKECA certified, NFPA compliant">
+    <meta name="author" content="Austin Hood Cleaning">
+    <meta property="og:title" content="Cedar Park Hood Cleaning Services | Professional Hood Cleaning">
+    <meta property="og:description" content="Professional hood cleaning services in Cedar Park TX - IKECA Certified, NFPA Compliant, Fully Insured">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://austinhoodcleaning.com/cedarparkhoodcleaning.html">
+    <title>Cedar Park Hood Cleaning Services | Professional Hood Cleaning in Cedar Park TX</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .bg-primary {
+            background-color: #FF5A5F;
+        }
+        
+        .text-primary {
+            color: #FF5A5F;
+        }
+        
+        .bg-secondary {
+            background-color: #1A1A1A;
+        }
+        
+        .text-secondary {
+            color: #1A1A1A;
+        }
+        
+        .bg-accent {
+            background-color: #FFD166;
+        }
+        
+        .text-accent {
+            color: #FFD166;
+        }
+        
+        .hover-primary:hover {
+            background-color: #FF4A4E;
+        }
+        
+        .smooth-transition {
+            transition: all 300ms ease-out;
+        }
+        
+        .gradient-overlay {
+            background: linear-gradient(135deg, #FF5A5F 0%, #FF7A7F 100%);
+        }
+        
+        .faq-answer {
+            max-height: 500px;
+            overflow: hidden;
+        }
+        
+        .faq-answer.hidden {
+            max-height: 0;
+            overflow: hidden;
+        }
+        
+        .smooth-height-transition {
+            transition: max-height 300ms ease-out, opacity 300ms ease-out;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            animation: fadeIn 300ms ease-out;
+        }
+
+        .modal.show {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .modal-content {
+            animation: slideIn 300ms ease-out;
+        }
+    </style>
+
+    <script type="application/ld+json">
+    [
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Austin Hood Cleaning - Cedar Park",
+        "description": "Professional hood cleaning services in Cedar Park TX - IKECA Certified, NFPA Compliant, Fully Insured",
+        "email": "office@austinhoodcleaning.com",
+        "telephone": "(512)232-3343",
+        "areaServed": "Cedar Park, TX",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "office@austinhoodcleaning.com",
+            "contactType": "customer service"
+        }
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Cedar Park Hood Cleaning Services | Professional Hood Cleaning in Cedar Park TX",
+        "description": "Professional hood cleaning services in Cedar Park TX - IKECA Certified, NFPA Compliant, Fully Insured"
+    }
+    ]
+    </script>
+</head>
+<body class="bg-white text-secondary">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-8 md:px-16 py-4 flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+                    <i class="fas fa-fire text-white text-lg"></i>
+                </div>
+                <span class="text-xl font-bold text-secondary hidden sm:inline">Austin Hood Cleaning</span>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center gap-8">
+                <a href="index.html#features" class="text-secondary font-medium hover:text-primary smooth-transition">Features</a>
+                <a href="index.html#benefits" class="text-secondary font-medium hover:text-primary smooth-transition">Benefits</a>
+                <a href="index.html#testimonials" class="text-secondary font-medium hover:text-primary smooth-transition">Testimonials</a>
+                <a href="index.html#faq" class="text-secondary font-medium hover:text-primary smooth-transition">FAQ</a>
+                <div class="relative group">
+                    <button class="text-secondary font-medium hover:text-primary smooth-transition flex items-center gap-1">Service Areas <i class="fas fa-chevron-down text-xs"></i></button>
+                    <div class="absolute left-0 mt-0 w-48 bg-white border-2 border-gray-100 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible smooth-transition z-50">
+                        <a href="roundrockhoodcleaning.html" class="block px-4 py-3 text-secondary hover:text-primary hover:bg-gray-50 smooth-transition first:rounded-t-lg">Round Rock</a>
+                        <a href="/sanmarcoshoodcleaning.html" class="block px-4 py-3 text-secondary hover:text-primary hover:bg-gray-50 smooth-transition">San Marcos</a>                        <a href="cedarparkhoodcleaning.html" class="block px-4 py-3 text-secondary hover:text-primary hover:bg-gray-50 smooth-transition last:rounded-b-lg">Cedar Park</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phone Link -->
+            <a href="tel:(512)232-3343" class="text-secondary font-medium hover:text-primary smooth-transition">
+                <i class="fas fa-phone text-primary mr-2"></i>(512) 232-3343
+            </a>
+
+            <!-- CTA Button -->
+            <div class="hidden md:block">
+                <button onclick="openScheduleModal()" class="bg-primary text-white px-8 py-3 rounded-full font-semibold hover:brightness-110 smooth-transition hover:scale-105 hover:shadow-lg">
+                    Get Started
+                </button>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-button md:hidden text-secondary text-2xl focus:outline-none">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu hidden md:hidden bg-white border-t border-gray-200">
+            <div class="max-w-7xl mx-auto px-8 py-6 flex flex-col gap-4">
+                <a href="index.html#features" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">Features</a>
+                <a href="index.html#benefits" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">Benefits</a>
+                <a href="index.html#testimonials" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">Testimonials</a>
+                <a href="index.html#faq" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">FAQ</a>
+                <div class="py-2">
+                    <button class="text-secondary font-medium hover:text-primary smooth-transition flex items-center gap-2 w-full" onclick="toggleMobileServiceAreas()">Service Areas <i class="fas fa-chevron-down text-xs"></i></button>
+                    <div id="mobileServiceAreas" class="hidden pl-4 mt-2 space-y-2 border-l-2 border-gray-200">
+                        <a href="roundrockhoodcleaning.html" class="block text-secondary font-medium py-2 hover:text-primary smooth-transition">Round Rock</a>
+                        <a href="cedarparkhoodcleaning.html" class="block text-secondary font-medium py-2 hover:text-primary smooth-transition">Cedar Park</a>
+                    </div>
+                </div>
+                <button onclick="openScheduleModal()" class="bg-primary text-white px-8 py-3 rounded-full font-semibold text-center hover:brightness-110 smooth-transition w-full">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-32 md:py-40 bg-gradient-to-br from-white via-white to-gray-50 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-primary opacity-5 rounded-full -mr-48 -mt-48"></div>
+        <div class="absolute bottom-0 left-0 w-80 h-80 bg-accent opacity-5 rounded-full -ml-40 -mb-40"></div>
+        
+        <div class="max-w-7xl mx-auto px-8 md:px-16 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-center">
+                <!-- Left Content -->
+                <div class="flex flex-col gap-8">
+                    <div>
+                        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary leading-tight tracking-tight mb-6">
+                            Professional Hood Cleaning in <span class="text-primary">Cedar Park TX</span>
+                        </h1>
+                        <p class="text-lg md:text-xl text-gray-700 font-medium leading-relaxed">
+                            Expert Hood Cleaning Service for Cedar Park Restaurants and Commercial Kitchens
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button onclick="openScheduleModal()" class="bg-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:brightness-110 smooth-transition hover:scale-105 hover:shadow-lg text-center">
+                            Get Started With a Quote
+                        </button>
+                        <a href="tel:(512)232-3343" class="bg-secondary text-white px-8 py-4 rounded-full font-bold text-lg hover:brightness-110 smooth-transition hover:scale-105 hover:shadow-lg text-center flex items-center justify-center gap-2">
+                            <i class="fas fa-phone"></i>(512) 232-3343
+                        </a>
+                    </div>
+
+                    <!-- Trust Badges -->
+                    <div class="flex flex-wrap gap-4 pt-4">
+                        <div class="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full">
+                            <i class="fas fa-shield-alt text-primary text-lg"></i>
+                            <span class="text-sm font-semibold text-secondary">IKECA Certified</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full">
+                            <i class="fas fa-check-circle text-primary text-lg"></i>
+                            <span class="text-sm font-semibold text-secondary">NFPA Compliant</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full">
+                            <i class="fas fa-certificate text-primary text-lg"></i>
+                            <span class="text-sm font-semibold text-secondary">Fully Insured</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Visual -->
+                <div class="hidden lg:flex items-center justify-center">
+                    <div class="relative w-full h-96">
+                        <div class="absolute inset-0 bg-gradient-to-br from-primary to-accent rounded-3xl opacity-10"></div>
+                        <div class="absolute inset-4 bg-white rounded-2xl flex items-center justify-center shadow-2xl">
+                            <div class="text-center">
+                                <i class="fas fa-fan text-primary text-8xl mb-4 opacity-80"></i>
+                                <p class="text-secondary font-bold text-xl">Cedar Park Hood Cleaning</p>
+                                <p class="text-gray-600 text-sm mt-2">Fast • Reliable • Certified</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Cedar Park Section -->
+    <section class="py-20 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-center">
+                <!-- Left Content -->
+                <div>
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mb-6 tracking-tight">
+                        Serving Cedar Park's Growing Restaurant Community
+                    </h2>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                        Cedar Park has experienced tremendous growth over the past decade, with an exciting culinary scene that continues to expand. From established fine dining establishments to trendy new food concepts, Cedar Park's restaurants are at the heart of the community. As the city grows, so does the demand for professional, reliable hood cleaning services that meet the highest standards.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                        Our team understands Cedar Park's unique business environment and the challenges restaurant owners face. We've built our reputation on delivering consistent, high-quality hood cleaning services to Cedar Park establishments. Whether you're located near the heart of downtown Cedar Park or in one of the newer commercial developments, we know the area and we're committed to supporting your business with professional, certified hood cleaning services.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        With our local knowledge, IKECA certification, and commitment to NFPA compliance, we're the trusted choice for Cedar Park restaurants and commercial kitchens that demand excellence.
+                    </p>
+                </div>
+
+                <!-- Right Content -->
+                <div class="bg-gradient-to-br from-primary to-accent rounded-3xl p-8 md:p-12 text-white">
+                    <h3 class="text-2xl md:text-3xl font-bold mb-8">Why Cedar Park Chooses Us</h3>
+                    <div class="space-y-6">
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-12 w-12 rounded-lg bg-white bg-opacity-20">
+                                    <i class="fas fa-map-marker-alt text-white text-lg"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">Local Expertise</h4>
+                                <p class="text-white text-opacity-90">We know Cedar Park's restaurant landscape and serve the community with pride.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-12 w-12 rounded-lg bg-white bg-opacity-20">
+                                    <i class="fas fa-clock text-white text-lg"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">Quick Response Times</h4>
+                                <p class="text-white text-opacity-90">Being local means we can schedule appointments quickly and respond to urgent needs.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-12 w-12 rounded-lg bg-white bg-opacity-20">
+                                    <i class="fas fa-handshake text-white text-lg"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">Partnership Approach</h4>
+                                <p class="text-white text-opacity-90">We view ourselves as partners in your business success, not just a service provider.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services in Cedar Park Section -->
+    <section class="py-20 md:py-32 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-24">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mb-6 tracking-tight">
+                    Our Hood Cleaning Services in Cedar Park
+                </h2>
+                <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+                    Comprehensive hood cleaning solutions tailored to Cedar Park's diverse restaurant and commercial kitchen needs.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+                <!-- Service 1 -->
+                <div class="bg-white border-2 border-gray-100 rounded-2xl p-8 md:p-10 hover:shadow-xl smooth-transition hover:scale-105 hover:border-primary">
+                    <div class="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-spray-can text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-secondary mb-4">Standard Hood Cleaning</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Thorough cleaning of hood systems, filters, and ductwork. Our standard service includes complete degreasing, sanitization, and NFPA compliance verification. Perfect for restaurants maintaining regular cleaning schedules.
+                    </p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white border-2 border-gray-100 rounded-2xl p-8 md:p-10 hover:shadow-xl smooth-transition hover:scale-105 hover:border-primary">
+                    <div class="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-tools text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-secondary mb-4">Maintenance Plans</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Customized maintenance schedules designed for your specific cooking operations. Regular cleanings help prevent fire hazards, maintain efficiency, and ensure you're always inspection-ready. Cedar Park restaurants trust our predictable, reliable service.
+                    </p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white border-2 border-gray-100 rounded-2xl p-8 md:p-10 hover:shadow-xl smooth-transition hover:scale-105 hover:border-primary">
+                    <div class="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-exclamation-triangle text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-secondary mb-4">Emergency Service</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Hood system issues don't wait for business hours. We offer emergency hood cleaning services for Cedar Park restaurants facing urgent situations. Call us for fast, professional response to keep your kitchen safe and operational.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-20 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-24">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mb-6 tracking-tight">
+                    Why Cedar Park Restaurants Choose Austin Hood Cleaning
+                </h2>
+                <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+                    We combine professional expertise with local knowledge to deliver exceptional results.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
+                <!-- Benefit 1 -->
+                <div class="flex gap-6 md:gap-8">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-xl bg-primary">
+                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-bold text-secondary mb-3">IKECA Certified Team</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Our technicians hold current IKECA certification, ensuring they meet the highest industry standards for hood cleaning expertise and safety protocols. Cedar Park restaurants can trust our professional credentials.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="flex gap-6 md:gap-8">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-xl bg-primary">
+                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-bold text-secondary mb-3">NFPA Compliant</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            We strictly adhere to NFPA standards and guidelines. Every Cedar Park restaurant we service receives cleaning that meets all fire safety and ventilation requirements for complete peace of mind.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="flex gap-6 md:gap-8">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-xl bg-primary">
+                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-bold text-secondary mb-3">Green Products</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            We use environmentally friendly, biodegradable cleaning solutions that are safe for your staff and the Cedar Park community. Professional cleaning power without environmental compromise.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div class="flex gap-6 md:gap-8">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-xl bg-primary">
+                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-bold text-secondary mb-3">Quick & Efficient</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Cedar Park restaurants depend on us to work quickly without sacrificing quality. Our streamlined process minimizes downtime so you can get back to serving your customers faster.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Benefit 5 -->
+                <div class="flex gap-6 md:gap-8">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-xl bg-primary">
+                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m7 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-bold text-secondary mb-3">Guaranteed Compliance</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            We guarantee your hood system will pass health and fire safety inspections. Our meticulous work and detailed documentation give Cedar Park restaurants confidence going into every inspection.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Benefit 6 -->
+                <div class="flex gap-6 md:gap-8">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-xl bg-primary">
+                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-bold text-secondary mb-3">Fully Insured</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Our comprehensive liability and workers' compensation insurance protects your Cedar Park business. You can focus on running your restaurant while we handle the hood cleaning with complete coverage.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section with Background -->
+    <section class="py-20 md:py-32 relative overflow-hidden" style="background-image: linear-gradient(rgba(26, 26, 26, 0.75), rgba(26, 26, 26, 0.75)), url('https://jrfent.github.io/the-ultimate-hood-cleaning-company-in-austin-tx-2025-11-28-81c13/cool-new-kitchen-hood-cleaning.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
+        <div class="max-w-4xl mx-auto px-8 md:px-16 relative z-10 text-center">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 tracking-tight">
+                Ready for Professional Hood Cleaning in Cedar Park?
+            </h2>
+            <p class="text-lg md:text-xl text-gray-100 mb-10 leading-relaxed max-w-2xl mx-auto">
+                Join Cedar Park's leading restaurants and commercial kitchens that trust us for certified, compliant, and exceptional hood cleaning services. Schedule your service today.
+            </p>
+            <button onclick="openScheduleModal()" class="inline-block bg-primary text-white px-10 py-4 rounded-full font-bold text-lg hover:brightness-110 smooth-transition hover:scale-105 hover:shadow-lg">
+                Get Started With a Quote
+            </button>
+        </div>
+    </section>
+
+    <!-- Cedar Park Area Coverage Section -->
+    <section class="py-20 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-24">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mb-6 tracking-tight">
+                    Serving Cedar Park and Surrounding Areas
+                </h2>
+                <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+                    We proudly serve Cedar Park and the greater Austin area with professional hood cleaning services.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Area 1 -->
+                <div class="bg-gradient-to-br from-gray-50 to-white border-2 border-gray-100 rounded-2xl p-8 hover:shadow-lg smooth-transition hover:border-primary">
+                    <div class="flex items-center gap-3 mb-4">
+                        <i class="fas fa-map-marker-alt text-primary text-2xl"></i>
+                        <h3 class="text-xl font-bold text-secondary">Downtown Cedar Park</h3>
+                    </div>
+                    <p class="text-gray-700">
+                        Serving the heart of Cedar Park's dining district with quick response times and professional service for established restaurants and new concepts alike.
+                    </p>
+                </div>
+
+                <!-- Area 2 -->
+                <div class="bg-gradient-to-br from-gray-50 to-white border-2 border-gray-100 rounded-2xl p-8 hover:shadow-lg smooth-transition hover:border-primary">
+                    <div class="flex items-center gap-3 mb-4">
+                        <i class="fas fa-map-marker-alt text-primary text-2xl"></i>
+                        <h3 class="text-xl font-bold text-secondary">North Cedar Park</h3>
+                    </div>
+                    <p class="text-gray-700">
+                        Supporting the growing commercial development and restaurant scene in North Cedar Park with reliable, certified hood cleaning services.
+                    </p>
+                </div>
+
+                <!-- Area 3 -->
+                <div class="bg-gradient-to-br from-gray-50 to-white border-2 border-gray-100 rounded-2xl p-8 hover:shadow-lg smooth-transition hover:border-primary">
+                    <div class="flex items-center gap-3 mb-4">
+                        <i class="fas fa-map-marker-alt text-primary text-2xl"></i>
+                        <h3 class="text-xl font-bold text-secondary">West Cedar Park</h3>
+                    </div>
+                    <p class="text-gray-700">
+                        Providing professional hood cleaning services to West Cedar Park's commercial kitchens and restaurants with local expertise and quick scheduling.
+                    </p>
+                </div>
+
+                <!-- Area 4 -->
+                <div class="bg-gradient-to-br from-gray-50 to-white border-2 border-gray-100 rounded-2xl p-8 hover:shadow-lg smooth-transition hover:border-primary">
+                    <div class="flex items-center gap-3 mb-4">
+                        <i class="fas fa-map-marker-alt text-primary text-2xl"></i>
+                        <h3 class="text-xl font-bold text-secondary">Leander</h3>
+                    </div>
+                    <p class="text-gray-700">
+                        Extending our services to nearby Leander restaurants and commercial kitchens with the same certified, professional hood cleaning standards.
+                    </p>
+                </div>
+
+                <!-- Area 5 -->
+                <div class="bg-gradient-to-br from-gray-50 to-white border-2 border-gray-100 rounded-2xl p-8 hover:shadow-lg smooth-transition hover:border-primary">
+                    <div class="flex items-center gap-3 mb-4">
+                        <i class="fas fa-map-marker-alt text-primary text-2xl"></i>
+                        <h3 class="text-xl font-bold text-secondary">Pflugerville</h3>
+                    </div>
+                    <p class="text-gray-700">
+                        Supporting Pflugerville's growing restaurant community with professional hood cleaning services and local business understanding.
+                    </p>
+                </div>
+
+                <!-- Area 6 -->
+                <div class="bg-gradient-to-br from-gray-50 to-white border-2 border-gray-100 rounded-2xl p-8 hover:shadow-lg smooth-transition hover:border-primary">
+                    <div class="flex items-center gap-3 mb-4">
+                        <i class="fas fa-map-marker-alt text-primary text-2xl"></i>
+                        <h3 class="text-xl font-bold text-secondary">Round Rock</h3>
+                    </div>
+                    <p class="text-gray-700">
+                        Serving Round Rock's diverse restaurant scene with certified, reliable hood cleaning services and dedicated local support.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 md:py-32 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-24">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mb-6 tracking-tight">
+                    Cedar Park Hood Cleaning FAQ
+                </h2>
+                <p class="text-lg text-gray-700">
+                    Find answers to common questions about our hood cleaning services in Cedar Park.
+                </p>
+            </div>
+
+            <div class="space-y-4 md:space-y-6">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item bg-white rounded-2xl border-2 border-gray-200 overflow-hidden">
+                    <button class="faq-question w-full px-8 md:px-10 py-6 md:py-8 flex items-center justify-between cursor-pointer hover:bg-gray-100 smooth-transition">
+                        <span class="text-lg md:text-xl font-bold text-secondary text-left">How quickly can you service my Cedar Park restaurant?</span>
+                        <svg class="faq-icon w-6 h-6 text-primary flex-shrink-0 ml-4 smooth-transition" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden smooth-height-transition px-8 md:px-10 pb-6 md:pb-8 border-t-2 border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            As a local Cedar Park company, we pride ourselves on quick response times. For routine maintenance cleanings, we typically can schedule service within 1-2 weeks. For urgent or emergency situations, we often can accommodate same-day or next-day service. Call us at (512) 232-3343 to discuss your specific timeline and needs.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-white rounded-2xl border-2 border-gray-200 overflow-hidden">
+                    <button class="faq-question w-full px-8 md:px-10 py-6 md:py-8 flex items-center justify-between cursor-pointer hover:bg-gray-100 smooth-transition">
+                        <span class="text-lg md:text-xl font-bold text-secondary text-left">What's the typical cost for hood cleaning in Cedar Park?</span>
+                        <svg class="faq-icon w-6 h-6 text-primary flex-shrink-0 ml-4 smooth-transition" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden smooth-height-transition px-8 md:px-10 pb-6 md:pb-8 border-t-2 border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Hood cleaning costs vary based on the size of your system, the amount of buildup, and your specific needs. We provide free, detailed quotes for Cedar Park restaurants after assessing your hood system. Most standard cleanings range from $400-$800, but we'll give you an exact price before any work begins. Many Cedar Park businesses find that our maintenance plans offer excellent value and help budget for regular service.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item bg-white rounded-2xl border-2 border-gray-200 overflow-hidden">
+                    <button class="faq-question w-full px-8 md:px-10 py-6 md:py-8 flex items-center justify-between cursor-pointer hover:bg-gray-100 smooth-transition">
+                        <span class="text-lg md:text-xl font-bold text-secondary text-left">Do you offer maintenance plans for Cedar Park restaurants?</span>
+                        <svg class="faq-icon w-6 h-6 text-primary flex-shrink-0 ml-4 smooth-transition" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden smooth-height-transition px-8 md:px-10 pb-6 md:pb-8 border-t-2 border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Yes! We specialize in customized maintenance plans for Cedar Park restaurants. Whether your establishment needs monthly, quarterly, or semi-annual cleaning, we create a schedule that matches your cooking operations and compliance needs. Maintenance plans provide predictable budgeting, priority scheduling, and the peace of mind that your hood system is always inspection-ready. Contact us to discuss a maintenance plan tailored to your Cedar Park restaurant.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item bg-white rounded-2xl border-2 border-gray-200 overflow-hidden">
+                    <button class="faq-question w-full px-8 md:px-10 py-6 md:py-8 flex items-center justify-between cursor-pointer hover:bg-gray-100 smooth-transition">
+                        <span class="text-lg md:text-xl font-bold text-secondary text-left">Will hood cleaning disrupt my Cedar Park restaurant's operations?</span>
+                        <svg class="faq-icon w-6 h-6 text-primary flex-shrink-0 ml-4 smooth-transition" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden smooth-height-transition px-8 md:px-10 pb-6 md:pb-8 border-t-2 border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            We understand that Cedar Park restaurants can't afford significant downtime. Our team works efficiently to minimize disruption—a typical cleaning takes 2-4 hours. We're happy to schedule service during your off-hours, early morning, or late evening if that works better for your operation. We'll discuss timing with you when scheduling to find the best window for your Cedar Park restaurant's needs.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item bg-white rounded-2xl border-2 border-gray-200 overflow-hidden">
+                    <button class="faq-question w-full px-8 md:px-10 py-6 md:py-8 flex items-center justify-between cursor-pointer hover:bg-gray-100 smooth-transition">
+                        <span class="text-lg md:text-xl font-bold text-secondary text-left">How do I know my Cedar Park restaurant will pass inspection?</span>
+                        <svg class="faq-icon w-6 h-6 text-primary flex-shrink-0 ml-4 smooth-transition" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden smooth-height-transition px-8 md:px-10 pb-6 md:pb-8 border-t-2 border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Our IKECA certification and strict NFPA compliance mean your Cedar Park restaurant's hood system will meet all health and fire safety inspection standards. We provide detailed documentation of our work, including before and after photos and service records. We guarantee your hood will pass inspection, and we keep comprehensive records to prove compliance. You'll have the documentation you need to demonstrate proper maintenance to inspectors.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Modal -->
+    <div id="scheduleModal" class="modal">
+        <div class="modal-content bg-white rounded-2xl p-8 md:p-12 max-w-md w-full mx-4 shadow-2xl">
+            <div class="flex items-center justify-between mb-6">
+                <h3 class="text-2xl md:text-3xl font-bold text-secondary">Schedule Your Cleaning</h3>
+                <button onclick="closeScheduleModal()" class="text-gray-500 hover:text-gray-700 text-2xl">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <form id="scheduleForm" class="space-y-4">
+                <div>
+                    <label class="block text-sm font-semibold text-secondary mb-2">Name</label>
+                    <input type="text" name="name" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="Your Name">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold text-secondary mb-2">Property/Restaurant Name</label>
+                    <input type="text" name="property" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="Business Name">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold text-secondary mb-2">Phone</label>
+                    <input type="tel" name="phone" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="(555) 123-4567">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold text-secondary mb-2">Email</label>
+                    <input type="email" name="email" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="your@email.com">
+                </div>
+
+                <button type="submit" class="w-full bg-primary text-white px-6 py-3 rounded-full font-bold text-lg hover:brightness-110 smooth-transition mt-6">
+                    Submit Request
+                </button>
+            </form>
+
+            <p class="text-center text-sm text-gray-600 mt-4">
+                We'll contact you within 24 hours to confirm your appointment.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white py-16 md:py-20">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 md:gap-8 mb-12">
+                <!-- Column 1 - About -->
+                <div>
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+                            <i class="fas fa-fire text-white text-lg"></i>
+                        </div>
+                        <span class="text-xl font-bold">Austin Hood Cleaning</span>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed">
+                        Professional hood cleaning services in Cedar Park, TX and surrounding areas. IKECA certified, NFPA compliant, and fully insured.
+                    </p>
+                </div>
+
+                <!-- Column 2 - Services -->
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-300 hover:text-primary smooth-transition">Hood Cleaning</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary smooth-transition">Maintenance Plans</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary smooth-transition">Commercial Kitchens</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary smooth-transition">Emergency Service</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 - Service Areas -->
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Service Areas</h3>
+                    <ul class="space-y-3">
+                        <li><a href="cedarparkhoodcleaning.html" class="text-gray-300 hover:text-primary smooth-transition">Cedar Park</a></li>
+                        <li><a href="roundrockhoodcleaning.html" class="text-gray-300 hover:text-primary smooth-transition">Round Rock</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary smooth-transition">Leander</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary smooth-transition">Pflugerville</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 - Contact -->
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Contact</h3>
+                    <p class="text-gray-300 mb-4">
+                        <a href="mailto:office@austinhoodcleaning.com" class="hover:text-primary smooth-transition">office@austinhoodcleaning.com</a>
+                    </p>
+                    <p class="text-gray-300 mb-4">
+                        <a href="tel:(512)232-3343" class="hover:text-primary smooth-transition">(512) 232-3343</a>
+                    </p>
+                    <div class="flex gap-4 mt-6">
+                        <a href="#" class="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:brightness-110 smooth-transition" aria-label="Facebook">
+                            <i class="fab fa-facebook-f text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:brightness-110 smooth-transition" aria-label="Instagram">
+                            <i class="fab fa-instagram text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:brightness-110 smooth-transition" aria-label="Twitter">
+                            <i class="fab fa-twitter text-white"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="border-t border-gray-700 pt-8 md:pt-12">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                    <p class="text-gray-300 text-center md:text-left">
+                        &copy; 2025 Austin Hood Cleaning. All rights reserved.
+                    </p>
+                    <p class="text-gray-300 text-center">
+                        Professional hood cleaning services in Cedar Park, TX since 2015.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function toggleMobileServiceAreas() {
+            const serviceAreas = document.getElementById('mobileServiceAreas');
+            if (serviceAreas) {
+                serviceAreas.classList.toggle('hidden');
+            }
+        }
+
+        function openScheduleModal() {
+            document.getElementById('scheduleModal').classList.add('show');
+        }
+
+        function closeScheduleModal() {
+            document.getElementById('scheduleModal').classList.remove('show');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Close modal when clicking outside
+            const modal = document.getElementById('scheduleModal');
+            if (modal) {
+                modal.addEventListener('click', function(e) {
+                    if (e.target === modal) {
+                        closeScheduleModal();
+                    }
+                });
+            }
+
+            // Handle form submission
+            const scheduleForm = document.getElementById('scheduleForm');
+            if (scheduleForm) {
+                scheduleForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const formData = {
+                        name: this.name.value,
+                        property: this.property.value,
+                        phone: this.phone.value,
+                        email: this.email.value,
+                        timestamp: new Date().toLocaleString()
+                    };
+
+                    // Send to Google Sheet via Apps Script
+                    const googleScriptURL = 'https://script.google.com/macros/d/1gCZvjWGJqJl5K5L5K5L5K5L5K5L5K5L5/usercache';
+                    
+                    fetch(googleScriptURL, {
+                        method: 'POST',
+                        mode: 'no-cors',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(formData)
+                    })
+                    .catch(error => console.log('Google Sheet submission sent'));
+
+                    // Send email via FormSubmit service
+                    fetch('https://formsubmit.co/hoodcleaningmarketing@gmail.com', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            name: formData.name,
+                            property: formData.property,
+                            phone: formData.phone,
+                            email: formData.email,
+                            _subject: 'New Hood Cleaning Service Request - Cedar Park',
+                            _captcha: 'false'
+                        })
+                    })
+                    .then(response => {
+                        if (response.ok) {
+                            alert('Thank you! We will contact you shortly to confirm your appointment.');
+                            scheduleForm.reset();
+                            closeScheduleModal();
+                        } else {
+                            alert('There was an error submitting your request. Please try again.');
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        alert('There was an error submitting your request. Please try again.');
+                    });
+                });
+            }
+
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
