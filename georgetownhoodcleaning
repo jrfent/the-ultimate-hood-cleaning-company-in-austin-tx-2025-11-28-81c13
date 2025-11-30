@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Hood Cleaning services for Georgetown TX - IKECA Certified, NFPA Compliant, Fully Insured. Serving the Georgetown area with exceptional hood cleaning.">
+    <meta name="keywords" content="hood cleaning Georgetown TX, Georgetown restaurant hood cleaning, IKECA certified, NFPA compliant">
+    <meta name="author" content="Austin Hood Cleaning">
+    <meta property="og:title" content="Georgetown Hood Cleaning | Professional Hood Cleaning Services">
+    <meta property="og:description" content="Professional hood cleaning services for Georgetown TX - Guaranteed to Pass Inspection, Green Products, Exceptional Service">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://austinhoodcleaning.com/georgetownhoodcleaning.html">
+    <title>Georgetown Hood Cleaning | Professional Hood Cleaning Services in Georgetown TX</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .bg-primary {
+            background-color: #FF5A5F;
+        }
+        
+        .text-primary {
+            color: #FF5A5F;
+        }
+        
+        .bg-secondary {
+            background-color: #1A1A1A;
+        }
+        
+        .text-secondary {
+            color: #1A1A1A;
+        }
+        
+        .bg-accent {
+            background-color: #FFD166;
+        }
+        
+        .text-accent {
+            color: #FFD166;
+        }
+        
+        .hover-primary:hover {
+            background-color: #FF4A4E;
+        }
+        
+        .smooth-transition {
+            transition: all 300ms ease-out;
+        }
+        
+        .gradient-overlay {
+            background: linear-gradient(135deg, #FF5A5F 0%, #FF7A7F 100%);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            animation: fadeIn 300ms ease-out;
+        }
+
+        .modal.show {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .modal-content {
+            animation: slideIn 300ms ease-out;
+        }
+    </style>
+
+    <script type="application/ld+json">
+    [
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Austin Hood Cleaning - Georgetown TX Service",
+        "description": "Professional hood cleaning services for Georgetown TX - IKECA Certified, NFPA Compliant, Fully Insured.",
+        "email": "office@austinhoodcleaning.com",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "office@austinhoodcleaning.com",
+            "contactType": "customer service"
+        }
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Georgetown Hood Cleaning | Professional Hood Cleaning Services in Georgetown TX",
+        "description": "Professional hood cleaning services for Georgetown TX - IKECA Certified, NFPA Compliant, Fully Insured."
+    }
+    ]
+    </script>
+</head>
+<body class="bg-white text-secondary">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-8 md:px-16 py-4 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="index.html" class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+                    <i class="fas fa-fire text-white text-lg"></i>
+                </div>
+                <span class="text-xl font-bold text-secondary hidden sm:inline">Austin Hood Cleaning</span>
+            </a>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center gap-8">
+                <a href="index.html#features" class="text-secondary font-medium hover:text-primary smooth-transition">Features</a>
+                <a href="index.html#benefits" class="text-secondary font-medium hover:text-primary smooth-transition">Benefits</a>
+                <a href="index.html#testimonials" class="text-secondary font-medium hover:text-primary smooth-transition">Testimonials</a>
+                <a href="index.html#faq" class="text-secondary font-medium hover:text-primary smooth-transition">FAQ</a>
+                <div class="relative group">
+                    <button class="text-secondary font-medium hover:text-primary smooth-transition flex items-center gap-1">Service Areas <i class="fas fa-chevron-down text-xs"></i></button>
+                    <div class="absolute left-0 mt-0 w-48 bg-white border-2 border-gray-100 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible smooth-transition z-50">
+                        <a href="roundrockhoodcleaning.html" class="block px-4 py-3 text-secondary hover:text-primary hover:bg-gray-50 smooth-transition first:rounded-t-lg">Round Rock</a>
+                        <a href="#" class="block px-4 py-3 text-secondary hover:text-primary hover:bg-gray-50 smooth-transition">San Marcos</a>
+                        <a href="georgetownhoodcleaning.html" class="block px-4 py-3 text-secondary hover:text-primary hover:bg-gray-50 smooth-transition">Georgetown</a>
+                        <a href="cedarparkhoodcleaning.html" class="block px-4 py-3 text-secondary hover:text-primary hover:bg-gray-50 smooth-transition last:rounded-b-lg">Cedar Park</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phone Link -->
+            <a href="tel:(512)232-3343" class="text-secondary font-medium hover:text-primary smooth-transition">
+                <i class="fas fa-phone text-primary mr-2"></i>(512) 232-3343
+            </a>
+
+            <!-- CTA Button -->
+            <div class="hidden md:block">
+                <button onclick="openScheduleModal()" class="bg-primary text-white px-8 py-3 rounded-full font-semibold hover:brightness-110 smooth-transition hover:scale-105 hover:shadow-lg">
+                    Get Started
+                </button>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-button md:hidden text-secondary text-2xl focus:outline-none">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu hidden md:hidden bg-white border-t border-gray-200">
+            <div class="max-w-7xl mx-auto px-8 py-6 flex flex-col gap-4">
+                <a href="index.html#features" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">Features</a>
+                <a href="index.html#benefits" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">Benefits</a>
+                <a href="index.html#testimonials" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">Testimonials</a>
+                <a href="index.html#faq" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">FAQ</a>
+                <div class="py-2">
+                    <button class="text-secondary font-medium hover:text-primary smooth-transition flex items-center gap-2 w-full" onclick="toggleMobileServiceAreas()">Service Areas <i class="fas fa-chevron-down text-xs"></i></button>
+                    <div id="mobileServiceAreas" class="hidden pl-4 mt-2 space-y-2 border-l-2 border-gray-200">
+                        <a href="roundrockhoodcleaning.html" class="block text-secondary font-medium py-2 hover:text-primary smooth-transition">Round Rock</a>
+                        <a href="#" class="block text-secondary font-medium py-2 hover:text-primary smooth-transition">San Marcos</a>
+                        <a href="georgetownhoodcleaning.html" class="block text-secondary font-medium py-2 hover:text-primary smooth-transition">Georgetown</a>
+                        <a href="cedarparkhoodcleaning.html" class="block text-secondary font-medium py-2 hover:text-primary smooth-transition">Cedar Park</a>
+                    </div>
+                </div>
+                <button onclick="openScheduleModal()" class="bg-primary text-white px-8 py-3 rounded-full font-semibold text-center hover:brightness-110 smooth-transition w-full">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-32 md:py-40 bg-gradient-to-br from-white via-white to-gray-50 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-primary opacity-5 rounded-full -mr-48 -mt-48"></div>
+        <div class="absolute bottom-0 left-0 w-80 h-80 bg-accent opacity-5 rounded-full -ml-40 -mb-40"></div>
+        
+        <div class="max-w-7xl mx-auto px-8 md:px-16 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-center">
+                <!-- Left Content -->
+                <div class="flex flex-col gap-8">
+                    <div>
+                        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary leading-tight tracking-tight mb-6">
+                            Professional Hood Cleaning in <span class="text-primary">Georgetown TX</span>
+                        </h1>
+                        <p class="text-lg md:text-xl text-gray-700 font-medium leading-relaxed">
+                            Expert Hood Cleaning Services for Georgetown Restaurants and Commercial Kitchens
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button onclick="openScheduleModal()" class="bg-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:brightness-110 smooth-transition hover:scale-105 hover:shadow-lg text-center">
+                            Get Started With a Quote
+                        </button>
+                        <a href="tel:(512)232-3343" class="bg-secondary text-white px-8 py-4 rounded-full font-bold text-lg hover:brightness-110 smooth-transition hover:scale-105 hover:shadow-lg text-center flex items-center justify-center gap-2">
+                            <i class="fas fa-phone"></i>(512) 232-3343
+                        </a>
+                    </div>
+
+                    <!-- Trust Badges -->
+                    <div class="flex flex-wrap gap-4 pt-4">
+                        <div class="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full">
+                            <i class="fas fa-shield-alt text-primary text-lg"></i>
+                            <span class="text-sm font-semibold text-secondary">IKECA Certified</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full">
+                            <i class="fas fa-check-circle text-primary text-lg"></i>
+                            <span class="text-sm font-semibold text-secondary">NFPA Compliant</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full">
+                            <i class="fas fa-certificate text-primary text-lg"></i>
+                            <span class="text-sm font-semibold text-secondary">Fully Insured</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Visual -->
+                <div class="hidden lg:flex items-center justify-center">
+                    <div class="relative w-full h-96">
+                        <div class="absolute inset-0 bg-gradient-to-br from-primary to-accent rounded-3xl opacity-10"></div>
+                        <div class="absolute inset-4 bg-white rounded-2xl flex items-center justify-center shadow-2xl">
+                            <div class="text-center">
+                                <i class="fas fa-fan text-primary text-8xl mb-4 opacity-80"></i>
+                                <p class="text-secondary font-bold text-xl">Georgetown Hood Cleaning</p>
+                                <p class="text-gray-600 text-sm mt-2">Fast • Reliable • Local</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Local Service Section -->
+    <section class="py-20 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-24">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mb-6 tracking-tight">
+                    Georgetown's Trusted Hood Cleaning Partner
+                </h2>
+                <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+                    We understand Georgetown's unique restaurant community and provide specialized hood cleaning services tailored to local needs.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+                <!-- Service 1 -->
+                <div class="bg-white border-2 border-gray-100 rounded-2xl p-8 md:p-10 hover:shadow-xl smooth-transition hover:scale-105 hover:border-primary">
+                    <div class="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-map-marker-alt text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-secondary mb-4">Local Georgetown Expertise</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        We're deeply familiar with Georgetown's restaurant landscape, from downtown establishments to commercial kitchen facilities. Our team knows the local area and respects the unique character of Georgetown's business community.
+                    </p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white border-2 border-gray-100 rounded-2xl p-8 md:p-10 hover:shadow-xl smooth-transition hover:scale-105 hover:border-primary">
+                    <div class="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-clock text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-secondary mb-4">Convenient Scheduling</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        We offer flexible scheduling options that work around your Georgetown restaurant's operating hours. Whether you need early morning, evening, or weekend service, we'll accommodate your needs.
+                    </p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white border-2 border-gray-100 rounded-2xl p-8 md:p-10 hover:shadow-xl smooth-transition hover:scale-105 hover:border-primary">
+                    <div class="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-handshake text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-secondary mb-4">Community Commitment</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        We're committed to supporting Georgetown's local business community. As a trusted service provider, we take pride in being a reliable partner for your restaurant's ongoing maintenance and compliance needs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-20 md:py-32 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-24">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mb-6 tracking-tight">
+                    Why Georgetown Restaurants Choose Us
+                </h2>
+                <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+                    We combine expertise, certification, and dedication to deliver the highest quality hood cleaning services in Georgetown.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
+                <!-- Benefit 1 -->
+                <div class="flex gap-6 md:gap-8">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-xl bg-primary">
+                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-bold text-secondary mb-3">IKECA Certified</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Our team holds current IKECA certification, ensuring we meet the highest industry standards for hood cleaning. Georgetown health inspectors recognize and respect our professional credentials.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="flex gap-6 md:gap-8">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-xl bg-primary">
+                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-bold text-secondary mb-3">NFPA Compliant</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            We strictly adhere to NFPA standards. Our cleaning processes reduce fire hazards and ensure your Georgetown restaurant meets all fire safety requirements.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="flex gap-6 md:gap-8">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-xl bg-primary">
+                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m7 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-bold text-secondary mb-3">Fully Insured</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            We carry comprehensive liability and workers' compensation insurance. Your Georgetown business is protected with complete peace of mind.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div class="flex gap-6 md:gap-8">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-xl bg-primary">
+                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-bold text-secondary mb-3">Quick & Efficient</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            We understand Georgetown restaurant owners' time is valuable. Our streamlined process gets your hood cleaned quickly without sacrificing quality.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Georgetown Area Coverage -->
+    <section class="py-20 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-24">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mb-6 tracking-tight">
+                    Serving Georgetown and Surrounding Areas
+                </h2>
+                <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+                    Our service area covers Georgetown, TX and the surrounding Williamson County region. We're your local hood cleaning solution.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+                <!-- Area 1 -->
+                <div class="bg-gradient-to-br from-gray-50 to-white border-2 border-gray-100 rounded-2xl p-8 text-center hover:shadow-lg smooth-transition">
+                    <i class="fas fa-utensils text-primary text-4xl mb-4"></i>
+                    <h3 class="text-xl font-bold text-secondary mb-3">Downtown Georgetown</h3>
+                    <p class="text-gray-700">
+                        Serving restaurants and commercial kitchens in historic downtown Georgetown with professional hood cleaning services.
+                    </p>
+                </div>
+
+                <!-- Area 2 -->
+                <div class="bg-gradient-to-br from-gray-50 to-white border-2 border-gray-100 rounded-2xl p-8 text-center hover:shadow-lg smooth-transition">
+                    <i class="fas fa-building text-primary text-4xl mb-4"></i>
+                    <h3 class="text-xl font-bold text-secondary mb-3">Commercial District</h3>
+                    <p class="text-gray-700">
+                        We service commercial kitchens and food establishments throughout Georgetown's business districts.
+                    </p>
+                </div>
+
+                <!-- Area 3 -->
+                <div class="bg-gradient-to-br from-gray-50 to-white border-2 border-gray-100 rounded-2xl p-8 text-center hover:shadow-lg smooth-transition">
+                    <i class="fas fa-map text-primary text-4xl mb-4"></i>
+                    <h3 class="text-xl font-bold text-secondary mb-3">Greater Georgetown Area</h3>
+                    <p class="text-gray-700">
+                        Extended service area includes nearby communities and outlying Georgetown regions for your convenience.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 md:py-32 relative overflow-hidden" style="background-image: linear-gradient(rgba(26, 26, 26, 0.75), rgba(26, 26, 26, 0.75)), url('https://jrfent.github.io/the-ultimate-hood-cleaning-company-in-austin-tx-2025-11-28-81c13/cool-new-kitchen-hood-cleaning.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
+        <div class="max-w-4xl mx-auto px-8 md:px-16 relative z-10 text-center">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 tracking-tight">
+                Ready for Professional Hood Cleaning in Georgetown?
+            </h2>
+            <p class="text-lg md:text-xl text-gray-100 mb-10 leading-relaxed max-w-2xl mx-auto">
+                Georgetown restaurants and commercial kitchens trust us for certified, compliant hood cleaning. Get your quote today and join the local businesses we serve.
+            </p>
+            <button onclick="openScheduleModal()" class="inline-block bg-primary text-white px-10 py-4 rounded-full font-bold text-lg hover:brightness-110 smooth-transition hover:scale-105 hover:shadow-lg">
+                Schedule Your Cleaning
+            </button>
+        </div>
+    </section>
+
+    <!-- About Georgetown Service -->
+    <section class="py-20 md:py-32 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mb-6 tracking-tight">
+                    Our Commitment to Georgetown
+                </h2>
+            </div>
+
+            <div class="space-y-8 md:space-y-10">
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                    Georgetown is a vibrant community with a rich culinary heritage, and we're proud to serve its restaurant owners and commercial kitchen operators. We understand the unique challenges that Georgetown businesses face, from the seasonal tourism fluctuations to the high standards that locals expect. Our team has built relationships with Georgetown establishments and takes pride in being a trusted local partner. We're not just another hood cleaning company—we're part of the Georgetown business community, committed to supporting local success.
+                </p>
+
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                    When you choose Austin Hood Cleaning for your Georgetown restaurant, you're choosing a partner who understands your market, respects your time, and delivers results that exceed expectations. Our IKECA certification and NFPA compliance aren't just credentials—they're proof of our commitment to the highest standards. We use eco-friendly products that are safe for your staff and customers, and we work efficiently to minimize disruption to your business. Georgetown restaurant owners and managers know they can count on us to keep their hoods clean, compliant, and fire-safe. Contact us today to schedule your next hood cleaning service.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Georgetown Testimonials -->
+    <section class="py-20 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-24">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mb-6 tracking-tight">
+                    Georgetown Business Owners Trust Us
+                </h2>
+                <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+                    See what local Georgetown restaurants and commercial kitchens say about our service.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
+                <!-- Testimonial 1 -->
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl smooth-transition hover:scale-105">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed font-medium">
+                        "Best hood cleaning service in Georgetown! They're professional, thorough, and always on time. Highly recommend!"
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <p class="font-bold text-secondary">Tom Bradley</p>
+                        <p class="text-sm text-gray-600">Georgetown Restaurant Owner</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl smooth-transition hover:scale-105">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed font-medium">
+                        "They really know Georgetown and our restaurant's needs. Great service, fair pricing, and always professional."
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <p class="font-bold text-secondary">Angela Martinez</p>
+                        <p class="text-sm text-gray-600">Georgetown Kitchen Manager</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl smooth-transition hover:scale-105">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed font-medium">
+                        "IKECA certified and it shows! Our Georgetown business passed inspection with flying colors. Excellent work!"
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <p class="font-bold text-secondary">Robert Chen</p>
+                        <p class="text-sm text-gray-600">Georgetown Commercial Kitchen</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl smooth-transition hover:scale-105">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed font-medium">
+                        "They're reliable, efficient, and truly care about our Georgetown restaurant's success. Highly trusted!"
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <p class="font-bold text-secondary">Lisa Thompson</p>
+                        <p class="text-sm text-gray-600">Georgetown Cafe Owner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Modal -->
+    <div id="scheduleModal" class="modal">
+        <div class="modal-content bg-white rounded-2xl p-8 md:p-12 max-w-md w-full mx-4 shadow-2xl">
+            <div class="flex items-center justify-between mb-6">
+                <h3 class="text-2xl md:text-3xl font-bold text-secondary">Schedule Your Cleaning</h3>
+                <button onclick="closeScheduleModal()" class="text-gray-500 hover:text-gray-700 text-2xl">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <form id="scheduleForm" class="space-y-4">
+                <div>
+                    <label class="block text-sm font-semibold text-secondary mb-2">Name</label>
+                    <input type="text" name="name" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="Your Name">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold text-secondary mb-2">Property/Restaurant Name</label>
+                    <input type="text" name="property" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="Business Name">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold text-secondary mb-2">Phone</label>
+                    <input type="tel" name="phone" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="(555) 123-4567">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold text-secondary mb-2">Email</label>
+                    <input type="email" name="email" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="your@email.com">
+                </div>
+
+                <button type="submit" class="w-full bg-primary text-white px-6 py-3 rounded-full font-bold text-lg hover:brightness-110 smooth-transition mt-6">
+                    Submit Request
+                </button>
+            </form>
+
+            <p class="text-center text-sm text-gray-600 mt-4">
+                We'll contact you within 24 hours to confirm your appointment.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white py-16 md:py-20">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 md:gap-8 mb-12">
+                <!-- Column 1 - About -->
+                <div>
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+                            <i class="fas fa-fire text-white text-lg"></i>
+                        </div>
+                        <span class="text-xl font-bold">Austin Hood Cleaning</span>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed">
+                        Professional hood cleaning services in Georgetown, TX. IKECA certified, NFPA compliant, and fully insured.
+                    </p>
+                </div>
+
+                <!-- Column 2 - Services -->
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-300 hover:text-primary smooth-transition">Hood Cleaning</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary smooth-transition">Maintenance Plans</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary smooth-transition">Commercial Kitchens</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary smooth-transition">Emergency Service</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 - Legal -->
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Legal</h3>
+                    <ul class="space-y-3">
+                        <li><a href="privacy.html" class="text-gray-300 hover:text-primary smooth-transition">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-300 hover:text-primary smooth-transition">Terms of Service</a></li>
+                        <li><a href="blog.html" class="text-gray-300 hover:text-primary smooth-transition">Blog</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 - Contact -->
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Contact</h3>
+                    <p class="text-gray-300 mb-4">
+                        <a href="mailto:office@austinhoodcleaning.com" class="hover:text-primary smooth-transition">office@austinhoodcleaning.com</a>
+                    </p>
+                    <p class="text-gray-300 mb-4">
+                        <a href="tel:(512)232-3343" class="hover:text-primary smooth-transition">(512) 232-3343</a>
+                    </p>
+                    <div class="flex gap-4 mt-6">
+                        <a href="#" class="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:brightness-110 smooth-transition" aria-label="Facebook">
+                            <i class="fab fa-facebook-f text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:brightness-110 smooth-transition" aria-label="Instagram">
+                            <i class="fab fa-instagram text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:brightness-110 smooth-transition" aria-label="Twitter">
+                            <i class="fab fa-twitter text-white"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="border-t border-gray-700 pt-8 md:pt-12">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                    <p class="text-gray-300 text-center md:text-left">
+                        &copy; 2025 Austin Hood Cleaning. All rights reserved.
+                    </p>
+                    <p class="text-gray-300 text-center">
+                        Serving Georgetown, TX with professional hood cleaning services.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function toggleMobileServiceAreas() {
+            const serviceAreas = document.getElementById('mobileServiceAreas');
+            if (serviceAreas) {
+                serviceAreas.classList.toggle('hidden');
+            }
+        }
+
+        function openScheduleModal() {
+            document.getElementById('scheduleModal').classList.add('show');
+        }
+
+        function closeScheduleModal() {
+            document.getElementById('scheduleModal').classList.remove('show');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Close modal when clicking outside
+            const modal = document.getElementById('scheduleModal');
+            if (modal) {
+                modal.addEventListener('click', function(e) {
+                    if (e.target === modal) {
+                        closeScheduleModal();
+                    }
+                });
+            }
+
+            // Handle form submission
+            const scheduleForm = document.getElementById('scheduleForm');
+            if (scheduleForm) {
+                scheduleForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const formData = {
+                        name: this.name.value,
+                        property: this.property.value,
+                        phone: this.phone.value,
+                        email: this.email.value,
+                        timestamp: new Date().toLocaleString()
+                    };
+
+                    // Send to Google Sheet via Apps Script
+                    const googleScriptURL = 'https://script.google.com/macros/d/1gCZvjWGJqJl5K5L5K5L5K5L5K5L5K5L5/usercache';
+                    
+                    fetch(googleScriptURL, {
+                        method: 'POST',
+                        mode: 'no-cors',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(formData)
+                    })
+                    .catch(error => console.log('Google Sheet submission sent'));
+
+                    // Send email via FormSubmit service
+                    fetch('https://formsubmit.co/hoodcleaningmarketing@gmail.com', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            name: formData.name,
+                            property: formData.property,
+                            phone: formData.phone,
+                            email: formData.email,
+                            _subject: 'New Hood Cleaning Service Request - Georgetown',
+                            _captcha: 'false'
+                        })
+                    })
+                    .then(response => {
+                        if (response.ok) {
+                            alert('Thank you! We will contact you shortly to confirm your appointment.');
+                            scheduleForm.reset();
+                            closeScheduleModal();
+                        } else {
+                            alert('There was an error submitting your request. Please try again.');
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        alert('There was an error submitting your request. Please try again.');
+                    });
+                });
+            }
+
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
