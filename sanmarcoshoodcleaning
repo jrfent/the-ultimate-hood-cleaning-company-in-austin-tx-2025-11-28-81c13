@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Hood Cleaning for Restaurants and Commercial Kitchens in San Marcos TX - IKECA Certified, NFPA Compliant, Fully Insured.">
+    <meta name="keywords" content="hood cleaning San Marcos, San Marcos TX restaurant hood cleaning, IKECA certified, NFPA compliant">
+    <meta name="author" content="Austin Hood Cleaning">
+    <meta property="og:title" content="Professional Hood Cleaning in San Marcos TX | Austin Hood Cleaning">
+    <meta property="og:description" content="Professional hood cleaning services in San Marcos - Guaranteed to Pass Inspection, Green Products, Exceptional Service">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://austinhoodcleaning.com/sanmarcoshoodcleaning.html">
+    <title>Professional Hood Cleaning in San Marcos TX | Austin Hood Cleaning</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .bg-primary {
+            background-color: #FF5A5F;
+        }
+        
+        .text-primary {
+            color: #FF5A5F;
+        }
+        
+        .bg-secondary {
+            background-color: #1A1A1A;
+        }
+        
+        .text-secondary {
+            color: #1A1A1A;
+        }
+        
+        .bg-accent {
+            background-color: #FFD166;
+        }
+        
+        .text-accent {
+            color: #FFD166;
+        }
+        
+        .hover-primary:hover {
+            background-color: #FF4A4E;
+        }
+        
+        .smooth-transition {
+            transition: all 300ms ease-out;
+        }
+        
+        .gradient-overlay {
+            background: linear-gradient(135deg, #FF5A5F 0%, #FF7A7F 100%);
+        }
+        
+        .faq-answer {
+            max-height: 500px;
+            overflow: hidden;
+        }
+        
+        .faq-answer.hidden {
+            max-height: 0;
+            overflow: hidden;
+        }
+        
+        .smooth-height-transition {
+            transition: max-height 300ms ease-out, opacity 300ms ease-out;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            animation: fadeIn 300ms ease-out;
+        }
+
+        .modal.show {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .modal-content {
+            animation: slideIn 300ms ease-out;
+        }
+    </style>
+
+    <script type="application/ld+json">
+    [
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Austin Hood Cleaning - San Marcos",
+        "description": "Professional Hood Cleaning for Restaurants and Commercial Kitchens in San Marcos TX - IKECA Certified, NFPA Compliant, Fully Insured.",
+        "email": "office@austinhoodcleaning.com",
+        "telephone": "(512)232-3343",
+        "areaServed": "San Marcos, TX",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "office@austinhoodcleaning.com",
+            "contactType": "customer service"
+        }
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Professional Hood Cleaning in San Marcos TX | Austin Hood Cleaning",
+        "description": "Professional Hood Cleaning for Restaurants and Commercial Kitchens in San Marcos TX - IKECA Certified, NFPA Compliant, Fully Insured."
+    }
+    ]
+    </script>
+</head>
+<body class="bg-white text-secondary">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-8 md:px-16 py-4 flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+                    <i class="fas fa-fire text-white text-lg"></i>
+                </div>
+                <span class="text-xl font-bold text-secondary hidden sm:inline">Austin Hood Cleaning</span>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center gap-8">
+                <a href="index.html#features" class="text-secondary font-medium hover:text-primary smooth-transition">Features</a>
+                <a href="index.html#benefits" class="text-secondary font-medium hover:text-primary smooth-transition">Benefits</a>
+                <a href="index.html#testimonials" class="text-secondary font-medium hover:text-primary smooth-transition">Testimonials</a>
+                <a href="index.html#faq" class="text-secondary font-medium hover:text-primary smooth-transition">FAQ</a>
+                <div class="relative group">
+                    <button class="text-secondary font-medium hover:text-primary smooth-transition flex items-center gap-1">Service Areas <i class="fas fa-chevron-down text-xs"></i></button>
+                    <div class="absolute left-0 mt-0 w-48 bg-white border-2 border-gray-100 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible smooth-transition z-50">
+                        <a href="roundrockhoodcleaning.html" class="block px-4 py-3 text-secondary hover:text-primary hover:bg-gray-50 smooth-transition first:rounded-t-lg">Round Rock</a>
+                        <a href="cedarparkhoodcleaning.html" class="block px-4 py-3 text-secondary hover:text-primary hover:bg-gray-50 smooth-transition">Cedar Park</a>
+                        <a href="georgetownhoodcleaning.html" class="block px-4 py-3 text-secondary hover:text-primary hover:bg-gray-50 smooth-transition">Georgetown</a>
+                        <a href="sanmarcoshoodcleaning.html" class="block px-4 py-3 text-secondary hover:text-primary hover:bg-gray-50 smooth-transition last:rounded-b-lg">San Marcos</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phone Link -->
+            <a href="tel:(512)232-3343" class="text-secondary font-medium hover:text-primary smooth-transition">
+                <i class="fas fa-phone text-primary mr-2"></i>(512) 232-3343
+            </a>
+
+            <!-- CTA Button -->
+            <div class="hidden md:block">
+                <button onclick="openScheduleModal()" class="bg-primary text-white px-8 py-3 rounded-full font-semibold hover:brightness-110 smooth-transition hover:scale-105 hover:shadow-lg">
+                    Get Started
+                </button>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-button md:hidden text-secondary text-2xl focus:outline-none">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu hidden md:hidden bg-white border-t border-gray-200">
+            <div class="max-w-7xl mx-auto px-8 py-6 flex flex-col gap-4">
+                <a href="index.html#features" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">Features</a>
+                <a href="index.html#benefits" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">Benefits</a>
+                <a href="index.html#testimonials" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">Testimonials</a>
+                <a href="index.html#faq" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">FAQ</a>
+                <div class="py-2">
+                    <button class="text-secondary font-medium hover:text-primary smooth-transition flex items-center gap-2 w-full" onclick="toggleMobileServiceAreas()">Service Areas <i class="fas fa-chevron-down text-xs"></i></button>
+                    <div id="mobileServiceAreas" class="hidden pl-4 mt-2 space-y-2 border-l-2 border-gray-200">
+                        <a href="roundrockhoodcleaning.html" class="block text-secondary font-medium py-2 hover:text-primary smooth-transition">Round Rock</a>
+                        <a href="cedarparkhoodcleaning.html" class="block text-secondary font-medium py-2 hover:text-primary smooth-transition">Cedar Park</a>
+                        <a href="georgetownhoodcleaning.html" class="block text-secondary font-medium py-2 hover:text-primary smooth-transition">Georgetown</a>
+                        <a href="sanmarcoshoodcleaning.html" class="block text-secondary font-medium py-2 hover:text-primary smooth-transition">San Marcos</a>
+                    </div>
+                </div>
+                <button onclick="openScheduleModal()" class="bg-primary text-white px-8 py-3 rounded-full font-semibold text-center hover:brightness-110 smooth-transition w-full">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-32 md:py-40 bg-gradient-to-br from-white via-white to-gray-50 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-primary opacity-5 rounded-full -mr-48 -mt-48"></div>
+        <div class="absolute bottom-0 left-0 w-80 h-80 bg-accent opacity-5 rounded-full -ml-40 -mb-40"></div>
+        
+        <div class="max-w-7xl mx-auto px-8 md:px-16 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-center">
+                <!-- Left Content -->
+                <div class="flex flex-col gap-8">
+                    <div>
+                        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary leading-tight tracking-tight mb-6">
+                            Professional Hood Cleaning in <span class="text-primary">San Marcos, TX</span>
+                        </h1>
+                        <p class="text-lg md:text-xl text-gray-700 font-medium leading-relaxed">
+                            Expert Hood Cleaning Services for San Marcos Restaurants and Commercial Kitchens
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button onclick="openScheduleModal()" class="bg-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:brightness-110 smooth-transition hover:scale-105 hover:shadow-lg text-center">
+                            Get Started With a Quote
+                        </button>
+                        <a href="tel:(512)232-3343" class="bg-secondary text-white px-8 py-4 rounded-full font-bold text-lg hover:brightness-110 smooth-transition hover:scale-105 hover:shadow-lg text-center flex items-center justify-center gap-2">
+                            <i class="fas fa-phone"></i>(512) 232-3343
+                        </a>
+                    </div>
+
+                    <!-- Trust Badges -->
+                    <div class="flex flex-wrap gap-4 pt-4">
+                        <div class="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full">
+                            <i class="fas fa-shield-alt text-primary text-lg"></i>
+                            <span class="text-sm font-semibold text-secondary">IKECA Certified</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full">
+                            <i class="fas fa-check-circle text-primary text-lg"></i>
+                            <span class="text-sm font-semibold text-secondary">NFPA Compliant</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full">
+                            <i class="fas fa-certificate text-primary text-lg"></i>
+                            <span class="text-sm font-semibold text-secondary">Fully Insured</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Visual -->
+                <div class="hidden lg:flex items-center justify-center">
+                    <div class="relative w-full h-96">
+                        <div class="absolute inset-0 bg-gradient-to-br from-primary to-accent rounded-3xl opacity-10"></div>
+                        <div class="absolute inset-4 bg-white rounded-2xl flex items-center justify-center shadow-2xl">
+                            <div class="text-center">
+                                <i class="fas fa-fan text-primary text-8xl mb-4 opacity-80"></i>
+                                <p class="text-secondary font-bold text-xl">Professional Hood Cleaning</p>
+                                <p class="text-gray-600 text-sm mt-2">San Marcos • Fast • Reliable</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About San Marcos Section -->
+    <section class="py-20 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-24">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mb-6 tracking-tight">
+                    Local Hood Cleaning Expertise in San Marcos
+                </h2>
+                <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+                    We understand San Marcos' unique restaurant community and commercial kitchen needs.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
+                <div>
+                    <h3 class="text-2xl font-bold text-secondary mb-6">Why San Marcos Restaurants Trust Us</h3>
+                    <ul class="space-y-4">
+                        <li class="flex gap-4">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-8 w-8 rounded-full bg-primary">
+                                    <svg class="h-5 w-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="text-lg font-semibold text-secondary">Local Knowledge of San Marcos Health Codes</p>
+                                <p class="text-gray-600 mt-1">We're familiar with San Marcos' specific health department requirements and inspection standards.</p>
+                            </div>
+                        </li>
+                        <li class="flex gap-4">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-8 w-8 rounded-full bg-primary">
+                                    <svg class="h-5 w-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="text-lg font-semibold text-secondary">Quick Response Times</p>
+                                <p class="text-gray-600 mt-1">Based locally, we can respond quickly to emergency cleaning requests and scheduled maintenance.</p>
+                            </div>
+                        </li>
+                        <li class="flex gap-4">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-8 w-8 rounded-full bg-primary">
+                                    <svg class="h-5 w-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="text-lg font-semibold text-secondary">Understanding of Busy Season Demands</p>
+                                <p class="text-gray-600 mt-1">We understand the seasonal peaks and valleys of San Marcos' restaurant industry and schedule accordingly.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl font-bold text-secondary mb-6">San Marcos Restaurant Community</h3>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        San Marcos has become a thriving hub for dining and hospitality, with everything from casual eateries to upscale establishments. As the city continues to grow along the I-35 corridor, more restaurants and food service businesses are opening their doors. Whether you're located downtown, along Hopkins Street, or in one of the newer commercial areas, we service all of San Marcos.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        Our team has worked with San Marcos' diverse restaurant scene—from barbecue joints and Tex-Mex establishments to contemporary dining venues and food trucks. We understand the unique challenges each type of kitchen faces and tailor our cleaning approach accordingly.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed">
+                        We're proud to be part of the San Marcos business community and committed to helping local restaurants succeed by maintaining clean, safe, and compliant kitchen hood systems.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 md:py-32 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-24">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mb-6 tracking-tight">
+                    Why Choose Our Hood Cleaning Service?
+                </h2>
+                <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+                    We combine expertise, certification, and dedication to deliver the highest quality hood cleaning services in San Marcos, Texas.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+                <!-- Feature 1 -->
+                <div class="bg-white border-2 border-gray-100 rounded-2xl p-8 md:p-10 hover:shadow-xl smooth-transition hover:scale-105 hover:border-primary">
+                    <div class="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-secondary mb-4">IKECA Certified</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Our team holds current IKECA (International Kitchen Exhaust Cleaning Association) certification, ensuring we meet the highest industry standards for hood cleaning and maintenance. This certification demonstrates our commitment to professional excellence and safety protocols.
+                    </p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="bg-white border-2 border-gray-100 rounded-2xl p-8 md:p-10 hover:shadow-xl smooth-transition hover:scale-105 hover:border-primary">
+                    <div class="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-secondary mb-4">NFPA Compliant</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        We strictly adhere to NFPA (National Fire Protection Association) standards and guidelines. Our cleaning processes and procedures are designed to reduce fire hazards and maintain optimal ventilation system performance for your restaurant or commercial kitchen.
+                    </p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="bg-white border-2 border-gray-100 rounded-2xl p-8 md:p-10 hover:shadow-xl smooth-transition hover:scale-105 hover:border-primary">
+                    <div class="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m7 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-secondary mb-4">Fully Insured</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        We carry comprehensive liability and workers' compensation insurance to protect your business. Our full coverage means you have complete peace of mind knowing that any potential issues are covered by our insurance policies.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-20 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-24">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mb-6 tracking-tight">
+                    Exceptional Benefits You'll Experience
+                </h2>
+                <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+                    Our comprehensive hood cleaning service delivers measurable results and peace of mind for your business.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
+                <!-- Benefit 1 -->
+                <div class="flex gap-6 md:gap-8">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-xl bg-primary">
+                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-bold text-secondary mb-3">Guaranteed to Pass Inspection</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Our meticulous cleaning process ensures your hood system passes all health and fire safety inspections with flying colors. We document our work thoroughly so you have proof of compliance for your records.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="flex gap-6 md:gap-8">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-xl bg-primary">
+                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-bold text-secondary mb-3">Green Products</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            We use environmentally friendly, biodegradable cleaning solutions that are safe for your staff and the environment. Our green approach doesn't compromise on cleaning power—your hood will be spotless and sustainably cleaned.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="flex gap-6 md:gap-8">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-xl bg-primary">
+                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-bold text-secondary mb-3">Exceptional Service</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Our dedicated team provides professional, courteous service with attention to detail. We work efficiently to minimize downtime for your business while delivering superior results every single time.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div class="flex gap-6 md:gap-8">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-xl bg-primary">
+                            <svg class="h-7 w-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-bold text-secondary mb-3">Quick & Efficient</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            We understand that time is money in the restaurant business. Our streamlined process gets your hood cleaned quickly without sacrificing quality, so you can get back to serving your customers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section with Background -->
+    <section class="py-20 md:py-32 relative overflow-hidden" style="background-image: linear-gradient(rgba(26, 26, 26, 0.75), rgba(26, 26, 26, 0.75)), url('https://jrfent.github.io/the-ultimate-hood-cleaning-company-in-austin-tx-2025-11-28-81c13/cool-new-kitchen-hood-cleaning.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
+        <div class="max-w-4xl mx-auto px-8 md:px-16 relative z-10 text-center">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 tracking-tight">
+                Ready to Experience Professional Hood Cleaning in San Marcos?
+            </h2>
+            <p class="text-lg md:text-xl text-gray-100 mb-10 leading-relaxed max-w-2xl mx-auto">
+                Join San Marcos restaurants and commercial kitchens that trust us for their hood cleaning needs. Get certified, compliant, and clean today.
+            </p>
+            <button onclick="openScheduleModal()" class="inline-block bg-primary text-white px-10 py-4 rounded-full font-bold text-lg hover:brightness-110 smooth-transition hover:scale-105 hover:shadow-lg">
+                Get Started With a Quote
+            </button>
+        </div>
+    </section>
+
+    <!-- San Marcos Service Areas -->
+    <section class="py-20 md:py-32 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-24">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mb-6 tracking-tight">
+                    Service Areas in San Marcos
+                </h2>
+                <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+                    We proudly serve all neighborhoods and commercial areas throughout San Marcos, TX.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+                <!-- Area 1 -->
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl smooth-transition hover:scale-105">
+                    <div class="flex items-center gap-3 mb-4">
+                        <i class="fas fa-map-marker-alt text-primary text-2xl"></i>
+                        <h3 class="text-xl font-bold text-secondary">Downtown San Marcos</h3>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        Serving restaurants and businesses in the historic downtown area along North Street and Hopkins Street.
+                    </p>
+                </div>
+
+                <!-- Area 2 -->
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl smooth-transition hover:scale-105">
+                    <div class="flex items-center gap-3 mb-4">
+                        <i class="fas fa-map-marker-alt text-primary text-2xl"></i>
+                        <h3 class="text-xl font-bold text-secondary">I-35 Corridor</h3>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        Professional service for commercial kitchens and restaurants along the I-35 business corridor.
+                    </p>
+                </div>
+
+                <!-- Area 3 -->
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl smooth-transition hover:scale-105">
+                    <div class="flex items-center gap-3 mb-4">
+                        <i class="fas fa-map-marker-alt text-primary text-2xl"></i>
+                        <h3 class="text-xl font-bold text-secondary">Old Ranch Road Area</h3>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        Serving restaurants and food service businesses in the growing Old Ranch Road commercial district.
+                    </p>
+                </div>
+
+                <!-- Area 4 -->
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl smooth-transition hover:scale-105">
+                    <div class="flex items-center gap-3 mb-4">
+                        <i class="fas fa-map-marker-alt text-primary text-2xl"></i>
+                        <h3 class="text-xl font-bold text-secondary">Wonder World Drive</h3>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        Hood cleaning services for establishments and food service operations on Wonder World Drive.
+                    </p>
+                </div>
+
+                <!-- Area 5 -->
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl smooth-transition hover:scale-105">
+                    <div class="flex items-center gap-3 mb-4">
+                        <i class="fas fa-map-marker-alt text-primary text-2xl"></i>
+                        <h3 class="text-xl font-bold text-secondary">North County</h3>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        Comprehensive hood cleaning for restaurants and commercial kitchens throughout North San Marcos.
+                    </p>
+                </div>
+
+                <!-- Area 6 -->
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl smooth-transition hover:scale-105">
+                    <div class="flex items-center gap-3 mb-4">
+                        <i class="fas fa-map-marker-alt text-primary text-2xl"></i>
+                        <h3 class="text-xl font-bold text-secondary">Surrounding Areas</h3>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        We also serve nearby communities and surrounding areas. Contact us to see if we service your location.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-24">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mb-6 tracking-tight">
+                    What San Marcos Clients Say
+                </h2>
+                <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+                    Hear from restaurant owners and managers who trust us with their hood cleaning needs.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-50 rounded-2xl p-8 shadow-md hover:shadow-xl smooth-transition hover:scale-105">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed font-medium">
+                        "We've been using Austin Hood Cleaning for our San Marcos restaurant for over a year now. They're professional, reliable, and our hood system has never been cleaner!"
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <p class="font-bold text-secondary">James Patterson</p>
+                        <p class="text-sm text-gray-600">Restaurant Owner, San Marcos</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-50 rounded-2xl p-8 shadow-md hover:shadow-xl smooth-transition hover:scale-105">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed font-medium">
+                        "They understand San Marcos' health codes and always have us ready for inspections. Highly recommend for any restaurant in the area!"
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <p class="font-bold text-secondary">Maria Gonzalez</p>
+                        <p class="text-sm text-gray-600">Manager, San Marcos</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-gray-50 rounded-2xl p-8 shadow-md hover:shadow-xl smooth-transition hover:scale-105">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed font-medium">
+                        "Quick response times and they're always willing to work around our schedule. Great service from a local company that cares about the community."
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <p class="font-bold text-secondary">Thomas Rivera</p>
+                        <p class="text-sm text-gray-600">Chef/Owner, San Marcos</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="bg-gray-50 rounded-2xl p-8 shadow-md hover:shadow-xl smooth-transition hover:scale-105">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                        <i class="fas fa-star text-accent text-lg"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed font-medium">
+                        "Professional team, green products, and they're IKECA certified. Everything you need in a hood cleaning company. Five stars!"
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <p class="font-bold text-secondary">Amanda Foster</p>
+                        <p class="text-sm text-gray-600">General Manager, San Marcos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 md:py-32 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-24">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mb-6 tracking-tight">
+                    Frequently Asked Questions
+                </h2>
+                <p class="text-lg text-gray-700">
+                    Find answers to common questions about our hood cleaning services in San Marcos.
+                </p>
+            </div>
+
+            <div class="space-y-4 md:space-y-6">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item bg-white rounded-2xl border-2 border-gray-200 overflow-hidden">
+                    <button class="faq-question w-full px-8 md:px-10 py-6 md:py-8 flex items-center justify-between cursor-pointer hover:bg-gray-100 smooth-transition">
+                        <span class="text-lg md:text-xl font-bold text-secondary text-left">How often should I have my hood cleaned?</span>
+                        <svg class="faq-icon w-6 h-6 text-primary flex-shrink-0 ml-4 smooth-transition" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden smooth-height-transition px-8 md:px-10 pb-6 md:pb-8 border-t-2 border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            The frequency of hood cleaning depends on your cooking volume and type of cuisine. Most restaurants require cleaning every 1-3 months. High-volume establishments, especially those using a lot of grease (like barbecue or fried food restaurants), may need monthly cleaning. We recommend following NFPA guidelines, which suggest cleaning frequency based on your specific cooking operations. We can assess your kitchen and provide a customized cleaning schedule recommendation during your first service.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-white rounded-2xl border-2 border-gray-200 overflow-hidden">
+                    <button class="faq-question w-full px-8 md:px-10 py-6 md:py-8 flex items-center justify-between cursor-pointer hover:bg-gray-100 smooth-transition">
+                        <span class="text-lg md:text-xl font-bold text-secondary text-left">How long does a typical hood cleaning take?</span>
+                        <svg class="faq-icon w-6 h-6 text-primary flex-shrink-0 ml-4 smooth-transition" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden smooth-height-transition px-8 md:px-10 pb-6 md:pb-8 border-t-2 border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            A standard hood cleaning typically takes 2-4 hours, depending on the size of your system and how much buildup has accumulated. We work efficiently to minimize disruption to your business. For larger commercial systems or heavily soiled hoods, the process may take longer. We always provide an estimated timeframe when scheduling your service, and our team works diligently to complete the job as quickly as possible without compromising on quality. We're happy to schedule cleanings during your off-hours if that works better for your operation.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item bg-white rounded-2xl border-2 border-gray-200 overflow-hidden">
+                    <button class="faq-question w-full px-8 md:px-10 py-6 md:py-8 flex items-center justify-between cursor-pointer hover:bg-gray-100 smooth-transition">
+                        <span class="text-lg md:text-xl font-bold text-secondary text-left">Do you serve all of San Marcos?</span>
+                        <svg class="faq-icon w-6 h-6 text-primary flex-shrink-0 ml-4 smooth-transition" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden smooth-height-transition px-8 md:px-10 pb-6 md:pb-8 border-t-2 border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Yes! We proudly serve all of San Marcos, including downtown, the I-35 corridor, Old Ranch Road area, Wonder World Drive, and all surrounding neighborhoods. Whether your restaurant is located in a busy commercial area or a quieter residential section of San Marcos, we're here to help. Our local presence means we can respond quickly to your cleaning needs. If you're unsure whether we service your specific location, please call us at (512) 232-3343 to confirm.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item bg-white rounded-2xl border-2 border-gray-200 overflow-hidden">
+                    <button class="faq-question w-full px-8 md:px-10 py-6 md:py-8 flex items-center justify-between cursor-pointer hover:bg-gray-100 smooth-transition">
+                        <span class="text-lg md:text-xl font-bold text-secondary text-left">Are your cleaning products safe for food preparation areas?</span>
+                        <svg class="faq-icon w-6 h-6 text-primary flex-shrink-0 ml-4 smooth-transition" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden smooth-height-transition px-8 md:px-10 pb-6 md:pb-8 border-t-2 border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Absolutely! We use only food-safe, environmentally friendly, and biodegradable cleaning products that are approved for use in food preparation areas. Our green products are non-toxic and safe for your staff and customers. We follow all health department guidelines and best practices for commercial kitchen cleaning. After cleaning, we thoroughly rinse all surfaces to ensure no residue remains. You can have complete peace of mind knowing that your kitchen is cleaned with products that prioritize safety and environmental responsibility.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item bg-white rounded-2xl border-2 border-gray-200 overflow-hidden">
+                    <button class="faq-question w-full px-8 md:px-10 py-6 md:py-8 flex items-center justify-between cursor-pointer hover:bg-gray-100 smooth-transition">
+                        <span class="text-lg md:text-xl font-bold text-secondary text-left">Can you provide documentation for health inspections?</span>
+                        <svg class="faq-icon w-6 h-6 text-primary flex-shrink-0 ml-4 smooth-transition" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden smooth-height-transition px-8 md:px-10 pb-6 md:pb-8 border-t-2 border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Yes! We provide detailed documentation of all our cleaning work, including before and after photos, service records, and compliance certifications. This documentation is invaluable during health inspections and helps demonstrate your commitment to maintaining a clean and safe kitchen. Our IKECA certification and adherence to NFPA standards mean your hood system is cleaned to the highest professional standards. We keep records of every service, and you'll have proof that your hood system is properly maintained and compliant with all San Marcos health department regulations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Modal -->
+    <div id="scheduleModal" class="modal">
+        <div class="modal-content bg-white rounded-2xl p-8 md:p-12 max-w-md w-full mx-4 shadow-2xl">
+            <div class="flex items-center justify-between mb-6">
+                <h3 class="text-2xl md:text-3xl font-bold text-secondary">Schedule Your Cleaning</h3>
+                <button onclick="closeScheduleModal()" class="text-gray-500 hover:text-gray-700 text-2xl">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <form id="scheduleForm" class="space-y-4">
+                <div>
+                    <label class="block text-sm font-semibold text-secondary mb-2">Name</label>
+                    <input type="text" name="name" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="Your Name">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold text-secondary mb-2">Property/Restaurant Name</label>
+                    <input type="text" name="property" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="Business Name">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold text-secondary mb-2">Phone</label>
+                    <input type="tel" name="phone" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="(555) 123-4567">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold text-secondary mb-2">Email</label>
+                    <input type="email" name="email" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="your@email.com">
+                </div>
+
+                <button type="submit" class="w-full bg-primary text-white px-6 py-3 rounded-full font-bold text-lg hover:brightness-110 smooth-transition mt-6">
+                    Submit Request
+                </button>
+            </form>
+
+            <p class="text-center text-sm text-gray-600 mt-4">
+                We'll contact you within 24 hours to confirm your appointment.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white py-16 md:py-20">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 md:gap-8 mb-12">
+                <!-- Column 1 - About -->
+                <div>
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+                            <i class="fas fa-fire text-white text-lg"></i>
+                        </div>
+                        <span class="text-xl font-bold">Austin Hood Cleaning</span>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed">
+                        Professional hood cleaning services in San Marcos, TX and surrounding areas. IKECA certified, NFPA compliant, and fully insured.
+                    </p>
+                </div>
+
+                <!-- Column 2 - Services -->
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-300 hover:text-primary smooth-transition">Hood Cleaning</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary smooth-transition">Maintenance Plans</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary smooth-transition">Commercial Kitchens</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary smooth-transition">Emergency Service</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 - Legal -->
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Legal</h3>
+                    <ul class="space-y-3">
+                        <li><a href="privacy.html" class="text-gray-300 hover:text-primary smooth-transition">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-300 hover:text-primary smooth-transition">Terms of Service</a></li>
+                        <li><a href="blog.html" class="text-gray-300 hover:text-primary smooth-transition">Blog</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 - Contact -->
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Contact</h3>
+                    <p class="text-gray-300 mb-4">
+                        <a href="mailto:office@austinhoodcleaning.com" class="hover:text-primary smooth-transition">office@austinhoodcleaning.com</a>
+                    </p>
+                    <p class="text-gray-300 mb-4">
+                        <a href="tel:(512)232-3343" class="hover:text-primary smooth-transition">(512) 232-3343</a>
+                    </p>
+                    <div class="flex gap-4 mt-6">
+                        <a href="#" class="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:brightness-110 smooth-transition" aria-label="Facebook">
+                            <i class="fab fa-facebook-f text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:brightness-110 smooth-transition" aria-label="Instagram">
+                            <i class="fab fa-instagram text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:brightness-110 smooth-transition" aria-label="Twitter">
+                            <i class="fab fa-twitter text-white"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="border-t border-gray-700 pt-8 md:pt-12">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                    <p class="text-gray-300 text-center md:text-left">
+                        &copy; 2025 Austin Hood Cleaning. All rights reserved.
+                    </p>
+                    <p class="text-gray-300 text-center">
+                        Serving San Marcos, TX with professional hood cleaning services.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function toggleMobileServiceAreas() {
+            const serviceAreas = document.getElementById('mobileServiceAreas');
+            if (serviceAreas) {
+                serviceAreas.classList.toggle('hidden');
+            }
+        }
+
+        function openScheduleModal() {
+            document.getElementById('scheduleModal').classList.add('show');
+        }
+
+        function closeScheduleModal() {
+            document.getElementById('scheduleModal').classList.remove('show');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Close modal when clicking outside
+            const modal = document.getElementById('scheduleModal');
+            if (modal) {
+                modal.addEventListener('click', function(e) {
+                    if (e.target === modal) {
+                        closeScheduleModal();
+                    }
+                });
+            }
+
+            // Handle form submission
+            const scheduleForm = document.getElementById('scheduleForm');
+            if (scheduleForm) {
+                scheduleForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const formData = {
+                        name: this.name.value,
+                        property: this.property.value,
+                        phone: this.phone.value,
+                        email: this.email.value,
+                        location: 'San Marcos',
+                        timestamp: new Date().toLocaleString()
+                    };
+
+                    // Send to Google Sheet via Apps Script
+                    const googleScriptURL = 'https://script.google.com/macros/d/1gCZvjWGJqJl5K5L5K5L5K5L5K5L5K5L5/usercache';
+                    
+                    fetch(googleScriptURL, {
+                        method: 'POST',
+                        mode: 'no-cors',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(formData)
+                    })
+                    .catch(error => console.log('Google Sheet submission sent'));
+
+                    // Send email via FormSubmit service
+                    fetch('https://formsubmit.co/hoodcleaningmarketing@gmail.com', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            name: formData.name,
+                            property: formData.property,
+                            phone: formData.phone,
+                            email: formData.email,
+                            location: formData.location,
+                            _subject: 'New Hood Cleaning Service Request - San Marcos',
+                            _captcha: 'false'
+                        })
+                    })
+                    .then(response => {
+                        if (response.ok) {
+                            alert('Thank you! We will contact you shortly to confirm your appointment.');
+                            scheduleForm.reset();
+                            closeScheduleModal();
+                        } else {
+                            alert('There was an error submitting your request. Please try again.');
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        alert('There was an error submitting your request. Please try again.');
+                    });
+                });
+            }
+
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
