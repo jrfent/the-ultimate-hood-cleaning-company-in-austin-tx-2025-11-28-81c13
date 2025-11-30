@@ -265,12 +265,12 @@
     <header class="sticky top-0 z-50 bg-white shadow-md">
         <nav class="max-w-7xl mx-auto px-8 md:px-16 py-4 flex items-center justify-between">
             <!-- Logo -->
-            <div class="flex items-center gap-3">
+            <a href="index.html" class="flex items-center gap-3 hover:opacity-80 smooth-transition">
                 <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
                     <i class="fas fa-fire text-white text-lg"></i>
                 </div>
                 <span class="text-xl font-bold text-secondary hidden sm:inline">Austin Hood Cleaning</span>
-            </div>
+            </a>
 
             <!-- Desktop Menu -->
             <div class="hidden md:flex items-center gap-8">
