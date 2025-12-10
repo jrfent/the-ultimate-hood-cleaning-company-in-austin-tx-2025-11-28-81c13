@@ -780,7 +780,7 @@
                     };
 
                     // Send to Google Sheet via Apps Script
-                    const googleScriptURL = 'https://script.google.com/macros/d/1gCZvjWGJqJl5K5L5K5L5K5L5K5L5K5L5/usercache';
+                    const googleScriptURL = 'https://script.google.com/macros/d/AKfycbxdtzactxz-40N0sn28H30Qzu8Eztt6leM32FThXf7H84EO3dghskKpBudUOZKwtdz2/usercache';
                     
                     fetch(googleScriptURL, {
                         method: 'POST',
