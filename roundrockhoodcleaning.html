@@ -298,7 +298,7 @@
 
             <!-- Phone Link -->
             <a href="tel:(512)232-3343" class="text-secondary font-medium hover:text-primary smooth-transition">
-                <i class="fas fa-phone text-primary mr-2"></i>(512) 232-3343
+                <i class="fas fa-phone text-primary mr-2"></i><span class="hidden sm:inline">(512) 232-3343</span>
             </a>
 
             <!-- CTA Button -->
@@ -309,7 +309,7 @@
             </div>
 
             <!-- Mobile Menu Button -->
-            <button class="mobile-menu-button md:hidden text-secondary text-2xl focus:outline-none">
+            <button class="mobile-menu-button md:hidden text-secondary text-2xl focus:outline-none ml-4">
                 <i class="fas fa-bars"></i>
             </button>
         </nav>
@@ -318,9 +318,9 @@
         <div class="mobile-menu hidden md:hidden bg-white border-t border-gray-200">
             <div class="max-w-7xl mx-auto px-8 py-6 flex flex-col gap-4">
                 <a href="index.html" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">Home</a>
-                <a href="#features" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">Features</a>
-                <a href="#benefits" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">Benefits</a>
-                <a href="#faq" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">FAQ</a>
+                <a href="index.html#features" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">Features</a>
+                <a href="index.html#benefits" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">Benefits</a>
+                <a href="index.html#faq" class="text-secondary font-medium py-2 hover:text-primary smooth-transition">FAQ</a>
                 <button onclick="openScheduleModal()" class="bg-primary text-white px-8 py-3 rounded-full font-semibold text-center hover:brightness-110 smooth-transition w-full">
                     Get Started
                 </button>
@@ -942,6 +942,16 @@
         }
 
         document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+
             // Close modal when clicking outside
             const modal = document.getElementById('scheduleModal');
             if (modal) {
