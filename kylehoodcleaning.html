@@ -1042,6 +1042,15 @@
 
     <!-- JavaScript -->
     <script>
+        // Mobile Service Areas Toggle - Global Scope
+        function toggleMobileServiceAreas() {
+            const serviceAreas = document.getElementById('mobileServiceAreas');
+            const icon = document.getElementById('mobileServiceAreasIcon');
+            if (serviceAreas && icon) {
+                serviceAreas.classList.toggle('hidden');
+                icon.classList.toggle('rotate-180');
+            }
+        }
         function openScheduleModal() {
             document.getElementById('scheduleModal').classList.add('show');
         }
