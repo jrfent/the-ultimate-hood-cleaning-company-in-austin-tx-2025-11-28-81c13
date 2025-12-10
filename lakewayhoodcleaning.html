@@ -321,7 +321,7 @@
             </div>
 
             <!-- Mobile Menu Button -->
-            <button class="mobile-menu-button md:hidden text-secondary text-2xl focus:outline-none">
+            <button class="mobile-menu-button md:hidden text-secondary text-2xl focus:outline-none" onclick="toggleMobileMenu()">
                 <i class="fas fa-bars"></i>
             </button>
         </nav>
@@ -1056,6 +1056,13 @@
 
         function closeScheduleModal() {
             document.getElementById('scheduleModal').classList.remove('show');
+        }
+
+        function toggleMobileMenu() {
+            const mobileMenu = document.querySelector('.mobile-menu');
+            if (mobileMenu) {
+                mobileMenu.classList.toggle('hidden');
+            }
         }
 
         document.addEventListener('DOMContentLoaded', function() {
