@@ -777,8 +777,10 @@
                     const formData = {
                         name: this.name.value,
                         property: this.property.value,
+                        address: this.address.value,
                         phone: this.phone.value,
                         email: this.email.value,
+                        notes: this.notes.value,
                         timestamp: new Date().toLocaleString()
                     };
 
@@ -804,8 +806,10 @@
                         body: JSON.stringify({
                             name: formData.name,
                             property: formData.property,
+                            address: formData.address,
                             phone: formData.phone,
                             email: formData.email,
+                            notes: formData.notes,
                             _subject: 'New Hood Cleaning Service Request',
                             _captcha: 'false'
                         })
