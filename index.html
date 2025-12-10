@@ -795,6 +795,27 @@ if (scheduleForm) {
         })
         .then(response => response.json())
         .then(data => {
+            // Send email notification
+            const emailData = new URLSearchParams({
+                name: formData.name,
+                property: formData.property,
+                address: formData.address,
+                phone: formData.phone,
+                email: formData.email,
+                notes: formData.notes,
+                website: formData.website,
+                timestamp: formData.timestamp
+            });
+            
+            const emailScriptURL = 'https://script.google.com/macros/s/AKfycbxzErt-z64q-M92Hm3k3-aO1LchSXLjyYBRtsvk7qHh8OJ6wILPeHzLGLdhV6giSfx6/exec?action=sendEmail&recipientEmail=hoodcleaningmarketing+austin@gmail.com';
+            
+            return fetch(emailScriptURL, {
+                method: 'POST',
+                body: emailData
+            });
+        })
+        .then(response => response.json())
+        .then(data => {
             alert('Thank you! We\'ll contact you within 24 hours.');
             scheduleForm.reset();
             closeScheduleModal();
