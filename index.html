@@ -796,24 +796,6 @@ if (scheduleForm) {
         .then(response => response.json())
         .then(data => {
             if (data.success) {
-                // Send email notification
-                const emailData = new URLSearchParams({
-                    to: 'hoodcleaningmarketing+austin@gmail.com',
-                    subject: 'Lead From Austin Hood Cleaning: ' + formData.property,
-                    name: formData.name,
-                    property: formData.property,
-                    address: formData.address,
-                    phone: formData.phone,
-                    email: formData.email,
-                    notes: formData.notes,
-                    timestamp: formData.timestamp
-                });
-                
-                fetch(googleScriptURL, {
-                    method: 'POST',
-                    body: emailData
-                });
-                
                 alert('Thank you! We\'ll contact you within 24 hours.');
                 scheduleForm.reset();
                 closeScheduleModal();
