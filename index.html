@@ -795,15 +795,6 @@ if (scheduleForm) {
         })
         .then(response => response.json())
         .then(data => {
-            if (data.success) {
-                // Form data saved successfully
-                return Promise.resolve(data);
-            } else {
-                throw new Error('Form submission failed');
-            }
-        })
-        .then(response => response.json())
-        .then(data => {
             alert('Thank you! We\'ll contact you within 24 hours.');
             scheduleForm.reset();
             closeScheduleModal();
