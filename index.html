@@ -799,6 +799,8 @@ if (scheduleForm) {
                 alert('Thank you! We\'ll contact you within 24 hours.');
                 scheduleForm.reset();
                 closeScheduleModal();
+            } else {
+                alert('There was an error submitting your form. Please call us at (512) 232-3343');
             }
         })
         .catch(error => {
