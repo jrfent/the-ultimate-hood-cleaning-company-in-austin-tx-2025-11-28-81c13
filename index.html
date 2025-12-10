@@ -796,12 +796,32 @@ if (scheduleForm) {
         .then(response => response.json())
         .then(data => {
             if (data.success) {
-                alert('Thank you! We\'ll contact you within 24 hours.');
-                scheduleForm.reset();
-                closeScheduleModal();
+                // Send email notification
+                const emailSubject = 'Austin Lead: ' + formData.property;
+                const emailBody = `Name: ${formData.name}\nBusiness: ${formData.property}\nAddress: ${formData.address}\nPhone: ${formData.phone}\nEmail: ${formData.email}\nNotes: ${formData.notes}`;
+                
+                const emailScriptURL = 'https://script.google.com/macros/s/AKfycbxzErt-z64q-M92Hm3k3-aO1LchSXLjyYBRtsvk7qHh8OJ6wILPeHzLGLdhV6giSfx6/exec';
+                
+                const emailData = new URLSearchParams({
+                    action: 'sendEmail',
+                    to: 'hoodcleaningmarketing+austin@gmail.com',
+                    subject: emailSubject,
+                    body: emailBody
+                });
+                
+                return fetch(emailScriptURL, {
+                    method: 'POST',
+                    body: emailData
+                });
             } else {
-                alert('There was an error submitting your form. Please call us at (512) 232-3343');
+                throw new Error('Form submission failed');
             }
+        })
+        .then(response => response.json())
+        .then(data => {
+            alert('Thank you! We\'ll contact you within 24 hours.');
+            scheduleForm.reset();
+            closeScheduleModal();
         })
         .catch(error => {
             console.error('Error:', error);
