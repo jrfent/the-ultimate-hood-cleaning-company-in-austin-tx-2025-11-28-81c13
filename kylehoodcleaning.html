@@ -1098,6 +1098,15 @@
      });
  }
 
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+
             // Mobile Service Areas Toggle
             function toggleMobileServiceAreas() {
                 const serviceAreas = document.getElementById('mobileServiceAreas');
