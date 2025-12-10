@@ -763,7 +763,7 @@
     <div id="scheduleModal" class="modal">
         <div class="modal-content bg-white rounded-2xl p-8 md:p-12 max-w-md w-full mx-4 shadow-2xl">
             <div class="flex items-center justify-between mb-6">
-                <h3 class="text-2xl md:text-3xl font-bold text-secondary">Schedule Your Cleaning</h3>
+                <h3 class="text-2xl md:text-3xl font-bold text-secondary">Get Your Quote Today</h3>
                 <button onclick="closeScheduleModal()" class="text-gray-500 hover:text-gray-700 text-2xl">
                     <i class="fas fa-times"></i>
                 </button>
@@ -771,24 +771,39 @@
 
             <form id="scheduleForm" class="space-y-4">
                 <div>
-                    <label class="block text-sm font-semibold text-secondary mb-2">Name</label>
                     <input type="text" name="name" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="Your Name">
                 </div>
 
                 <div>
-                    <label class="block text-sm font-semibold text-secondary mb-2">Property/Restaurant Name</label>
                     <input type="text" name="property" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="Business Name">
+                </div>
+                <div>
+                    <input type="text" name="address" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="Street Address, City">
                 </div>
 
                 <div>
-                    <label class="block text-sm font-semibold text-secondary mb-2">Phone</label>
                     <input type="tel" name="phone" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="(555) 123-4567">
                 </div>
 
                 <div>
-                    <label class="block text-sm font-semibold text-secondary mb-2">Email</label>
                     <input type="email" name="email" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="your@email.com">
+                <input type="hidden" name="website" value="austinhoodcleaning.com">
                 </div>
+
+                <div>
+                    <textarea name="notes" class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary smooth-transition" placeholder="Notes/Comments/Questions" rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="w-full bg-primary text-white px-6 py-3 rounded-full font-bold text-lg hover:brightness-110 smooth-transition mt-6">
+                    Submit Request
+                </button>
+            </form>
+
+            <p class="text-center text-sm text-gray-600 mt-4">
+                We'll contact you within 24 hours to confirm your appointment.
+            </p>
+        </div>
+    </div>
 
                 <button type="submit" class="w-full bg-primary text-white px-6 py-3 rounded-full font-bold text-lg hover:brightness-110 smooth-transition mt-6">
                     Submit Request
@@ -904,65 +919,42 @@
                 });
             }
 
-            // Handle form submission
-            const scheduleForm = document.getElementById('scheduleForm');
-            if (scheduleForm) {
-                scheduleForm.addEventListener('submit', function(e) {
-                    e.preventDefault();
-                    
-                    const formData = {
-                        name: this.name.value,
-                        property: this.property.value,
-                        phone: this.phone.value,
-                        email: this.email.value,
-                        location: 'San Marcos',
-                        timestamp: new Date().toLocaleString()
-                    };
+// Handle form submission
+ const scheduleForm = document.getElementById('scheduleForm');
+ if (scheduleForm) {
+     scheduleForm.addEventListener('submit', function(e) {
+         e.preventDefault();
+        
+         const formData = {
+             name: this.name.value,
+             property: this.property.value,
+             address: this.address.value,
+             phone: this.phone.value,
+             email: this.email.value,
+             notes: this.notes.value,
+             website: this.website.value,
+             timestamp: new Date().toLocaleString()
+         };
 
-                    // Send to Google Sheet via Apps Script
-                    const googleScriptURL = 'https://script.google.com/macros/d/1gCZvjWGJqJl5K5L5K5L5K5L5K5L5K5L5/usercache';
-                    
-                    fetch(googleScriptURL, {
-                        method: 'POST',
-                        mode: 'no-cors',
-                        headers: {
-                            'Content-Type': 'application/json',
-                        },
-                        body: JSON.stringify(formData)
-                    })
-                    .catch(error => console.log('Google Sheet submission sent'));
-
-                    // Send email via FormSubmit service
-                    fetch('https://formsubmit.co/hoodcleaningmarketing@gmail.com', {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                        },
-                        body: JSON.stringify({
-                            name: formData.name,
-                            property: formData.property,
-                            phone: formData.phone,
-                            email: formData.email,
-                            location: formData.location,
-                            _subject: 'New Hood Cleaning Service Request - San Marcos',
-                            _captcha: 'false'
-                        })
-                    })
-                    .then(response => {
-                        if (response.ok) {
-                            alert('Thank you! We will contact you shortly to confirm your appointment.');
-                            scheduleForm.reset();
-                            closeScheduleModal();
-                        } else {
-                            alert('There was an error submitting your request. Please try again.');
-                        }
-                    })
-                    .catch(error => {
-                        console.error('Error:', error);
-                        alert('There was an error submitting your request. Please try again.');
-                    });
-                });
-            }
+         // Send to Google Sheet via Apps Script
+         const googleScriptURL = 'https://script.google.com/macros/s/AKfycbxzErt-z64q-M92Hm3k3-aO1LchSXLjyYBRtsvk7qHh8OJ6wILPeHzLGLdhV6giSfx6/exec';
+        
+         fetch(googleScriptURL, {
+             method: 'POST',
+             body: new URLSearchParams(formData)
+         })
+         .then(response => response.json())
+         .then(data => {
+             alert('Thank you! We\'ll contact you within 24 hours.');
+             scheduleForm.reset();
+             closeScheduleModal();
+         })
+         .catch(error => {
+             console.error('Error:', error);
+             alert('There was an error submitting your form. Please call us at (512) 232-3343');
+         });
+     });
+ }
 
             // Mobile Menu Toggle
             const mobileMenuButton = document.querySelector('.mobile-menu-button');
