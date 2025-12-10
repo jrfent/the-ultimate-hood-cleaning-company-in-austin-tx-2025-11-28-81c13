@@ -795,24 +795,25 @@ if (scheduleForm) {
         })
         .then(response => response.json())
         .then(data => {
-            // Send email notification
-            const emailData = new URLSearchParams({
-                name: formData.name,
-                property: formData.property,
-                address: formData.address,
-                phone: formData.phone,
-                email: formData.email,
-                notes: formData.notes,
-                website: formData.website,
-                timestamp: formData.timestamp
-            });
-            
-            const emailScriptURL = 'https://script.google.com/macros/s/AKfycbxzErt-z64q-M92Hm3k3-aO1LchSXLjyYBRtsvk7qHh8OJ6wILPeHzLGLdhV6giSfx6/exec?action=sendEmail&recipientEmail=hoodcleaningmarketing+austin@gmail.com';
-            
-            return fetch(emailScriptURL, {
-                method: 'POST',
-                body: emailData
-            });
+                     // Send email via FormSubmit service
+                    fetch('https://formsubmit.co/hoodcleaningmarketing+austin@gmail.com', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+							name: this.name.value,
+							            property: this.property.value,
+							            address: this.address.value,
+							            phone: this.phone.value,
+							            email: this.email.value,
+							            notes: this.notes.value,
+							            website: this.website.value,
+							            timestamp: new Date().toLocaleString()
+                            _subject: 'Austin Service Request ',
+                            _captcha: 'false'
+                        })
+                    })
         })
         .then(response => response.json())
         .then(data => {
