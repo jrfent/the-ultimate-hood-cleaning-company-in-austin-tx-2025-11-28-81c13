@@ -308,11 +308,6 @@
                 </button>
             </div>
 
-            <button class="mobile-menu-button md:hidden text-secondary text-2xl focus:outline-none">
-                <i class="fas fa-bars"></i>
-            </button>
-        </nav>
-
             <!-- Mobile Menu Button -->
             <button class="mobile-menu-button md:hidden text-secondary text-2xl focus:outline-none">
                 <i class="fas fa-bars"></i>
@@ -889,7 +884,6 @@
             </p>
         </div>
     </div>
-	
 
     <!-- Footer -->
     <footer class="bg-secondary text-white py-16 md:py-20">
@@ -974,6 +968,10 @@
 
         function closeScheduleModal() {
             document.getElementById('scheduleModal').classList.remove('show');
+        }
+
+        function toggleMobileServiceAreas() {
+            document.getElementById('mobileServiceAreas').classList.toggle('hidden');
         }
 
         document.addEventListener('DOMContentLoaded', function() {
